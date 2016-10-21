@@ -1,0 +1,54 @@
+.container {
+  background: #e9e9f0;
+  /*background: black;*/
+  height: 500vh;
+  margin: 0 40vw 0 10vw;
+}
+
+header {
+  background: #e9e9f0;
+  padding: .2vh;
+  /*color: white;*/
+  font-family: Hero;
+}
+
+#RB {
+  padding: 0 0 0 2vw;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 5vw 3vh 5vw;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -6vh;
+}
+
+/*.viewport {
+  background-size: cover;
+  background-image: url('../images/background-18.png');
+  height: 120vh;
+  zoom: 1;
+}*/
+
+footer {
+  background: #e9e9f0;
+  text-align: center;
+  padding: 3vh;
+  font-family: Hero;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@font-face {
+  font-family: 'Hero';
+  src: url('../fonts/Hero copy.otf');
+}
