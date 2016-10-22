@@ -18,7 +18,11 @@
     .state('contact', {
       url:'/contact',
       templateUrl: 'contact.html',
-    });
+    })
+    .state('work', {
+      url:'/work',
+      templateUrl: 'work.html'
+    })
 
     $urlRouterProvider.otherwise('/');
 
