@@ -47,6 +47,11 @@ header {
   color: #CCCCCC;
 }
 
+.navbar.active {
+   box-shadow: inset 0 0px 0 white, inset 0 -5px 0 white;
+
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -158,6 +163,18 @@ nav {
   background-position:center;
   width: 100%;
   height: 400px;
+}
+
+.work-container {
+  background: #CCCCCC;
+  color: #333333;
+  height: 500px;
+}
+
+.other-projects {
+  font-family: Hero;
+  text-align: center;
+  padding: 10vh;
 }
 
 .me {

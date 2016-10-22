@@ -4,6 +4,9 @@ Sections of website:
 - home
 - projects/work
 
+nav:
+- can i make the underline slide?
+
 
 # Home
 - about the visuals
@@ -19,6 +22,9 @@ Sections of website:
 - a link to my pdf resume
 - brand statement
 
+# Contact
+- github, linkedin, codewars, google+
+-
 
 Technologies:
 - AngularJS
