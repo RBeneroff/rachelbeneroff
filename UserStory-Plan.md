@@ -15,6 +15,10 @@ Sections of website:
 - what I did, how I did it, technologies used, what I would have done differently
 - try Stellar.js
 
+# About
+- a link to my pdf resume
+- brand statement
+
 
 Technologies:
 - AngularJS

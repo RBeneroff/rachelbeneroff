@@ -7,6 +7,18 @@
   src: url('../fonts/Hero copy.otf');
 }
 
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Hero;
+}
+
+/*body {
+  font-family: Hero;
+}*/
+
 /*@font-family-Hero;*/
 
 /*.container {
@@ -26,13 +38,12 @@ header {
   padding: 4vh 0 0 2vw;
 }
 
-a {
-  text-decoration: none;
+.navbar {
   padding: 0 5vw 3vh 5vw;
   color: white;
 }
 
-a:hover {
+.navbar:hover {
   color: #CCCCCC;
 }
 
@@ -64,6 +75,40 @@ nav {
   background-position:center;
 }*/
 
+.h1 {
+  font-family: Hero;
+  padding: 25vh;
+}
+
+.about {
+  background: #CCCCCC;
+  height: 400px;
+  text-align: center;
+
+}
+
+.brand-statement {
+  /*font-family: Hero;*/
+  /*margin-top: -5vh;*/
+  width: 70%;
+  /*margin: auto;*/
+  padding: 15vh 20vh 0 20vh;
+  font-size: 25px;
+  color: #333333;
+  /*text-align: left;*/
+}
+
+.resume {
+  font-size: 20px;
+  font-family: Hero;
+  color: #333333;
+  /*padding: 20vh;*/
+}
+
+.resume:hover {
+  color: white;
+}
+
 .container-bok {
   font-family: hero;
   text-align: center;
@@ -72,6 +117,7 @@ nav {
 
 .work-titles {
   padding: 20vh;
+  color: white;
 }
 
 .burger-image{
@@ -82,6 +128,13 @@ nav {
   height: 400px;
 }
 
+.bok-site {
+  color: white;
+}
+
+.bok-site:hover {
+  color: #CCCCCC;
+}
 
 .proj-image{
   background-image: url('../images/BokBurgerList.png');
@@ -101,14 +154,24 @@ nav {
 
 .proj3-image{
   background-image: url('../images/Charleston1910 copy.jpg');
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   background-position:center;
   width: 100%;
   height: 400px;
 }
 
+.me {
+  background-image: url('../images/me.JPG');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 500px;
+  color: white;
+  margin:auto;
+  background-color: #7CC6C5;
+}
+
 .container{
-    /*padding:200px 20px 200px 20px;*/
     text-align:center;
     color:#FFF;
     font-weight:bold;
