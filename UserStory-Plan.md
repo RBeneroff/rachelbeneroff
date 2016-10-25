@@ -15,6 +15,8 @@ nav:
 
 # Home
 - about the visuals
+- Hi, I'm Rachel
+  dots underneath - when you click a dot or arrow to right or left it brings you to a word that describes me
 - learn to do scrolling image or scrolling container?
 
 # Work/Projects
@@ -26,10 +28,9 @@ nav:
 # About
 - a link to my pdf resume
 - brand statement
-
-# Contact
 - github, linkedin, codewars, google+
--
+- instead of showing email address have an email button and it opens up the user's email
+
 
 Technologies:
 - AngularJS
