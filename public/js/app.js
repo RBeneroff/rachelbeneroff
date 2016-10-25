@@ -21,7 +21,7 @@
     })
     .state('work', {
       url:'/work',
-      templateUrl: 'work.html'
+      templateUrl: 'work.html',
     })
 
     $urlRouterProvider.otherwise('/');

@@ -8,6 +8,9 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
+app.use(function(req, res) {
+    res.sendfile(__dirname + '/public/index.html');
+});
 
 
 app.listen(process.env.PORT || 3000, function() {
