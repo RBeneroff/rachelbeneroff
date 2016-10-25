@@ -4,6 +4,11 @@ Sections of website:
 - home
 - projects/work
 
+To Do:
+- make own logo
+- one page where nav bar stays at top and changes with page on
+- links open up in new tab
+
 nav:
 - can i make the underline slide?
 
