@@ -87,7 +87,7 @@ nav {
 
 .about {
   background: #CCCCCC;
-  height: 400px;
+  height: 350px;
   text-align: center;
 
 }
@@ -106,7 +106,7 @@ nav {
 .resume {
   font-size: 20px;
   font-family: Hero;
-  color: #333333;
+  color: #CCCCCC;
   /*padding: 20vh;*/
 }
 
@@ -172,10 +172,12 @@ nav {
   height: 500px;
 }
 
-.other-projects {
+.other-projects,
+.get-in-touch {
   font-family: Hero;
   text-align: center;
   padding: 10vh;
+  font-size: 25px;
 }
 
 .me {
@@ -186,11 +188,41 @@ nav {
   height: 500px;
   color: white;
   margin:auto;
-  background-color: #7CC6C5;
+  background-color: #cccccc;
+}
+
+.about-buttons {
+  text-align: center;
 }
 
 .container{
     text-align:center;
     color:#FFF;
     font-weight:bold;
+}
+
+.button {
+  border-style: solid;
+  border-width: 0px 0px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  color: #cccccc;
+  display: inline-block;
+  font-style: normal;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 200ms ease-in-out 0s;
+  white-space: nowrap;
+  font-weight: 700;
+  padding: 19px 39px 18px;
+  font-size: 14px;
+  /*border-color: #326E99;*/
+  background-color:  #333333;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: blue;
 }
