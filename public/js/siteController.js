@@ -3,7 +3,7 @@
     .module('MySite')
     .controller('SiteController', SiteController);
 
-    function SiteController() {
+    function SiteController($scope) {
       var self = this;
 
       var velocity = 0.5;

@@ -1,21 +1,23 @@
-<div class='home'>
-<div class='sliders'>
-<h1 id='1' ng-show='show1'>Hi, I'm Rachel.</h1>
-<h1 id='2' ng-show='show2'>Web Developer.</h1>
-<h1 id ='3' ng-show='show3'>Creative.</h1>
-<h1 id='4' ng-show='show4'>Font Freak.</h1>
-<h1 id = '5' ng-show='show5'>Student.</h1>
-</div>
-<div class='circles'>
-<h1 id='c1' ng-click='show1 = !show1'>&#9678;<h1>
-<h1 id='c2' ng-click='show2 = !show2'>&#9678;<h1>
-<h1 id='c3' ng-click='show3 = !show3'>&#9678;<h1>
-<h1 id='c4' ng-click='show4 = !show4'>&#9678;<h1>
-<h1 id='c5' ng-click='show5 = !show5'>&#9678;<h1>
-</div>
-</div>
 
+<div class='home'>
+<div id='typed-words' class='sliders' ng-init='show = 1'>
+<h1 id='word-1' ng-show='show == 1'>HEY, I'M RACHEL</h1>
+<h1 id='word-2' ng-show='show == 2'>WEB DEVELOPER</h1>
+<h1 id ='word-3' ng-show='show == 3'>CREATIVE</h1>
+<h1 id='word-4' ng-show='show == 4'>FONT FREAK</h1>
+<h1 id = 'word-5' ng-show='show == 5'>STUDENT</h1>
+</div>
+<span id="words"></span>
+<div class='circles'>
+<h1 id='c1' ng-class='{active:show == 1}' ng-click='show = 1'>&#9678;<h1>
+<h1 id='c2' ng-class='{active:show == 2}' ng-click='show = 2'>&#9678;<h1>
+<h1 id='c3' ng-class='{active:show == 3}' ng-click='show = 3'>&#9678;<h1>
+<h1 id='c4' ng-class='{active:show == 4}' ng-click='show = 4'>&#9678;<h1>
+<h1 id='c5' ng-class='{active:show == 5}' ng-click='show = 5'>&#9678;<h1>
+</div>
+</div>
 
 <!-- angular animate
 ng-show, hide
-if id = “”, show else hide  -->
+if id = “”, show else hide
+transition duration - change every 10 seconds  -->

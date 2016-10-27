@@ -28,7 +28,6 @@
       templateUrl: 'bokburgerlist.html',
     })
 
-
     $urlRouterProvider.otherwise('/');
 
     $locationProvider.html5Mode({

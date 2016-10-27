@@ -15,9 +15,9 @@ p {
   font-family: Hero;
 }
 
-/*body {
-  font-family: Hero;
-}*/
+body {
+  background-color: #333333;
+}
 
 /*@font-family-Hero;*/
 
@@ -82,15 +82,69 @@ nav {
 
 .sliders {
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 25vh;
+
 }
 
 .circles {
-  width: 300px;
-  margin: auto;
+  /*width: 300px;*/
+
+  margin-left: 20px;
   display: flex;
-  justify-content:space-between;
-  align-items: center;
+  flex-direction: row;
+  justify-content:center;
+}
+
+#c1,
+#c2,
+#c3,
+#c4,
+#c5 {
+  padding: 5vh;
+  color: #80AEFF;
+}
+
+#c1:active,
+#c2:active,
+#c3:active,
+#c4:active,
+#c5:active {
+  padding: 5vh;
+  color: #3567BF;
+}
+
+#word-1,
+#word-3,
+#word-5,
+#word-2,
+#word-4 {
+  font-family: Hero;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  color: #80AEFF;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 .h1 {
