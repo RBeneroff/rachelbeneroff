@@ -4,7 +4,9 @@ Sections of website:
 - home
 - projects/work
 
+
 To Do:
+- NEED TO DO CASE STUDIES BEFORE ANYTHING ELSE
 - make own logo
 - one page where nav bar stays at top and changes with page on
 - links open up in new tab

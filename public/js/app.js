@@ -27,6 +27,10 @@
       url:'/bok-burger-list',
       templateUrl: 'bokburgerlist.html',
     })
+    .state('design', {
+      url:'/design',
+      templateUrl: 'design.html',
+    })
 
     $urlRouterProvider.otherwise('/');
 
