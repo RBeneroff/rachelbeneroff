@@ -80,6 +80,19 @@ nav {
   background-position:center;
 }*/
 
+.sliders {
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.circles {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
 .h1 {
   font-family: Hero;
   padding: 25vh;
@@ -120,11 +133,26 @@ nav {
   /*font-size: 25px;*/
 }
 
-.work-titles {
+.work-titles,
+.about-heading {
   font-family: Hero;
   padding: 20vh;
   color: white;
 }
+
+/*work on this one*/
+/*.proj-image:hover,
+.proj2-image:hover,
+.proj3-image:hover {
+  opacity: 0.5;
+}*/
+
+/*work on this one */
+/*.work-titles:hover {*/
+  /*color: #333333;*/
+  /*opacity: 1;
+  z-index: 1;
+}*/
 
 .burger-image{
   background-image: url('../images/wall.jpg');
@@ -170,6 +198,18 @@ nav {
   background: #CCCCCC;
   color: #333333;
   height: 500px;
+}
+
+.case-link {
+  color: white;
+}
+
+.case-link:hover {
+  color: #CCCCCC;
+}
+
+.bok-case {
+
 }
 
 .other-projects,

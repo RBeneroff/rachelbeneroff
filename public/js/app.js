@@ -23,6 +23,11 @@
       url:'/work',
       templateUrl: 'work.html',
     })
+    .state('bok', {
+      url:'/bok-burger-list',
+      templateUrl: 'bokburgerlist.html',
+    })
+
 
     $urlRouterProvider.otherwise('/');
 
