@@ -1,10 +1,9 @@
 /*body {
   min-height: 2000px;
 }*/
-
-.navbar-static-top {
+/*.navbar-static-top {
   margin-bottom: 19px;
-}
+}*/
 
 *  {
   margin: 0;
@@ -24,7 +23,8 @@ p {
 }
 
 body {
-  background-color: #333333;
+  /*background-color: #333333;*/
+  /*background-color: #CCCCCC;*/
 }
 
 /*@font-family-Hero;*/
@@ -162,7 +162,7 @@ nav {
 }
 
 .about {
-  background: #CCCCCC;
+  /*background: #CCCCCC;*/
   height: 350px;
   text-align: center;
 
@@ -293,8 +293,22 @@ nav {
   color: #CCCCCC;
 }
 
-.bok-case {
+.case {
+  /*width: 800px;
+  height: 400px;*/
+  margin: auto;
+  text-align: center;
+  font-family: Hero;
+}
 
+.case-heading {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.case-body {
+  background-color: #CCCCCC;
+  height: 400px;
 }
 
 .other-projects,

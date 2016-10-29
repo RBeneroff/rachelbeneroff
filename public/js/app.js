@@ -27,6 +27,14 @@
       url:'/bok-burger-list',
       templateUrl: 'bokburgerlist.html',
     })
+    .state('tuts', {
+      url:'/turn-up-time-system',
+      templateUrl: 'tuts.html',
+    })
+    .state('final', {
+      url:'/final-project',
+      templateUrl: 'final.html',
+    })
     .state('design', {
       url:'/design',
       templateUrl: 'design.html',
