@@ -1,6 +1,7 @@
 var express        = require('express'),
     app            = express();
 var path           = require('path');
+// var bootstrap      = require('bootstrap');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
