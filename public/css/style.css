@@ -279,10 +279,38 @@ nav {
   height: 400px;
 }
 
-.work-container {
+.about-container {
   background: #CCCCCC;
   color: #333333;
   height: 400px;
+}
+
+.work-container {
+  background: #CCCCCC;
+  color: #333333;
+  /*height: 400px;*/
+}
+
+.work-flex {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.image-design {
+  zoom: .3;
+  flex: 1;
+}
+
+.image-design2 {
+  zoom: .2;
+  flex: 1;
+}
+
+.image-design3 {
+  zoom: .2;
+  flex: 1;
 }
 
 .case-link {
