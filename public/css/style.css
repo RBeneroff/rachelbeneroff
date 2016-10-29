@@ -25,6 +25,7 @@ p {
 body {
   /*background-color: #333333;*/
   /*background-color: #CCCCCC;*/
+  background-color: #E5E5E5;
 }
 
 /*@font-family-Hero;*/
@@ -49,15 +50,18 @@ header {
 .navbar {
   padding: 0 5vw 3vh 5vw;
   color: white;
+  margin-bottom: 9px;
 }
 
 .navbar:hover {
-  color: #CCCCCC;
+  color: #E5E5E5;
+  /*color: white;*/
 }
 
 .navbar.active {
-   box-shadow: inset 0 0px 0 white, inset 0 -5px 0 white;
-
+   box-shadow: inset 0 0px 0 #E5E5E5, inset 0 -5px 0px #E5E5E5;
+   margin-bottom: 9px;
+   /*margin-top: -5px;*/
 }
 
 nav {
@@ -162,7 +166,7 @@ nav {
 }
 
 .about {
-  /*background: #CCCCCC;*/
+  background: #E5E5E5;
   height: 350px;
   text-align: center;
 
@@ -179,15 +183,17 @@ nav {
   /*text-align: left;*/
 }
 
-/*.flex {
-  display: flex;
+.flex {
+  /*display: flex;
   width: 600px;
-  height: 300px;
-  margin: auto;
-}*/
+  height: 300px;*/
+  /*margin: auto;*/
+  padding-top: 15vh;
+}
 
 .about-buttons {
   text-align: center;
+  /*margin: auto;*/
   /*flex-wrap: reverse;
   justify-content: space-around;*/
 }
@@ -199,7 +205,7 @@ nav {
 .codewars {
   font-size: 20px;
   font-family: Hero;
-  color: #CCCCCC;
+  color: #E5E5E5;
   display: flex;
   text-align: center;
   /*flex-wrap: reverse;
@@ -251,7 +257,7 @@ nav {
 }
 
 .bok-site:hover {
-  color: #CCCCCC;
+  color: #E5E5E5;
 }
 
 .proj-image{
@@ -280,13 +286,13 @@ nav {
 }
 
 .about-container {
-  background: #CCCCCC;
+  background: #E5E5E5;
   color: #333333;
-  height: 400px;
+  height: 250px;
 }
 
 .work-container {
-  background: #CCCCCC;
+  background: #E5E5E5;
   color: #333333;
   /*height: 400px;*/
 }
@@ -318,7 +324,7 @@ nav {
 }
 
 .case-link:hover {
-  color: #CCCCCC;
+  color: #E5E5E5;
 }
 
 .case {
@@ -335,7 +341,7 @@ nav {
 }
 
 .case-body {
-  background-color: #CCCCCC;
+  background-color: #E5E5E5;
   height: 400px;
 }
 
@@ -386,6 +392,11 @@ nav {
   border-radius: 5px;
 }
 
-.button:hover {
-  color: blue;
+.button:hover,
+.github:hover,
+.linkedin:hover,
+.google:hover,
+.codewars:hover {
+  color: white;
+  background-color: #404040;
 }
