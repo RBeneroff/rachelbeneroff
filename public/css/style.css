@@ -400,19 +400,45 @@ nav {
 
 .squares {
   display: flex;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
   align-items: center;
 
 }
 
-.s1,
-.s2,
-.s3 {
+.image {
   height: 200px;
   width: 250px;
-  background-color: #333333;
+}
+
+.s3 {
+  /*height: 200px;
+  width: 250px;*/
+  /*background-color: #333333;*/
+    /*background-image: url('../images/squares-20.png');*/
   flex: 1
   padding: 10vw;
+  margin: auto;
+  cursor: pointer;
+}
+
+.s2 {
+  /*height: 200px;
+  width: 250px;*/
+  /*background-color: #333333;*/
+  /*background-image: url('../images/squares-21.png');*/
+  flex: 1
+  /*padding: 10vw;*/
+  margin: auto;
+  cursor: pointer;
+}
+
+.s1 {
+  /*height: 200px;
+  width: 250px;*/
+  /*background-color: #333333;*/
+  /*background-image: url('../images/squares-22.png');*/
+  /*flex: 1*/
+  /*padding: 10vw;*/
   margin: auto;
   cursor: pointer;
 }
