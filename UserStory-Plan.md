@@ -25,6 +25,10 @@ To Do:
 # About
 - add a word cloud of my skills?
 
+General:
+- text is serif
+- headings, buttons are Hero
+
 Technologies:
 - AngularJS
 - HTML/CSS

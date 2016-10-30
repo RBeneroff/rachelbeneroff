@@ -144,17 +144,18 @@ nav {
 
 .about {
   background: #E5E5E5;
-  height: 350px;
+  height: 325px;
   text-align: center;
 }
 
 .brand-statement {
   /*font-family: Hero;*/
+  font-family: 'Taviraj', serif;
   /*margin-top: -5vh;*/
   width: 70%;
   /*margin: auto;*/
-  padding: 15vh 20vh 0 20vh;
-  font-size: 25px;
+  padding: 10vh 20vh 0 20vh;
+  font-size: 20px;
   color: #333333;
   /*text-align: left;*/
 }
@@ -182,6 +183,7 @@ nav {
 .google,
 .codewars {
   font-size: 20px;
+  /*font-family: 'Taviraj', serif;*/
   font-family: Hero;
   color: #E5E5E5;
   display: flex;
@@ -213,8 +215,10 @@ nav {
 }
 
 .get-in-touch {
-  font-family: Hero;
+  /*font-family: Hero;*/
+  font-family: 'Taviraj', serif;
   text-align: center;
+  font-size: 20px;
   padding-top: 10vh;
 }
 
@@ -252,6 +256,10 @@ nav {
 }
 
 /*WORK PAGE */
+
+/*.Taviraj {
+  font-family: 'Taviraj', serif;
+}*/
 
 .container-bok {
   font-family: hero;
@@ -432,10 +440,11 @@ nav {
 
 .case-text {
   font-family: 'Taviraj', serif;
+  font-size: 18px;
 }
 
 .case-pics {
-  height: 500px;
+  height: 600px;
   margin-top: -10vh;
 }
 
@@ -453,8 +462,9 @@ nav {
 }
 
 .view-others {
-  height: 300px;
+  height: 250px;
   padding-top: 10vh;
+  padding-bottom: 10vh;
   /*background-color: white;*/
   font-family: Hero;
   text-align: center;
@@ -475,6 +485,8 @@ nav {
 .s3 {
   /*height: 200px;
   width: 250px;*/
+  /*height: 200px;
+  width: 250px;*/
   /*background-color: #333333;*/
     /*background-image: url('../images/squares-20.png');*/
   flex: 1
@@ -487,6 +499,8 @@ nav {
 .s2 {
   /*height: 200px;
   width: 250px;*/
+  /*height: 200px;
+  width: 250px;*/
   /*background-color: #333333;*/
   /*background-image: url('../images/squares-21.png');*/
   flex: 1
@@ -497,6 +511,8 @@ nav {
 }
 
 .s1 {
+  /*height: 200px;
+  width: 250px;*/
   /*height: 200px;
   width: 250px;*/
   /*background-color: #333333;*/
