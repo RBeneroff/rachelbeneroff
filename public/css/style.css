@@ -1,9 +1,4 @@
-/*body {
-  min-height: 2000px;
-}*/
-/*.navbar-static-top {
-  margin-bottom: 19px;
-}*/
+/*BASE STYLES*/
 
 *  {
   margin: 0;
@@ -28,13 +23,20 @@ body {
   background-color: #E5E5E5;
 }
 
-/*@font-family-Hero;*/
+/*USED ACROSS MULTIPLE PAGES*/
 
-/*.container {
-  background: #e9e9f0;
-  height: 500vh;
-  margin: 0 40vw 0 10vw;
-}*/
+.h1 {
+  font-family: Hero;
+  padding: 25vh;
+}
+
+.container{
+    text-align:center;
+    color:#FFF;
+    font-weight:bold;
+}
+
+/*INDEX PAGE */
 
 header {
   background: #333333;
@@ -70,37 +72,15 @@ nav {
   margin-top: -3vh;
 }
 
-/*.viewport {
-  background-size: cover;
-  background-image: url('../images/background-18.png');
-  height: 120vh;
-  zoom: 1;
-}*/
-
-/*footer {
-  background: #e9e9f0;
-  text-align: center;
-  padding: 3vh;
-  font-family: Hero;
-  display: flex;
-  justify-content: flex-end;
-}*/
-
-/*.background-image{
-  background-image: url('../images/wall.jpg');
-  zoom: .3;
-  background-position:center;
-}*/
+/*HOME PAGE*/
 
 .sliders {
   text-align: center;
   padding-top: 25vh;
-
 }
 
 .circles {
   /*width: 300px;*/
-
   margin-left: 20px;
   display: flex;
   flex-direction: row;
@@ -160,16 +140,12 @@ nav {
     100% { opacity:1; }
 }
 
-.h1 {
-  font-family: Hero;
-  padding: 25vh;
-}
+/*ABOUT PAGE */
 
 .about {
   background: #E5E5E5;
   height: 350px;
   text-align: center;
-
 }
 
 .brand-statement {
@@ -193,6 +169,7 @@ nav {
 
 .about-buttons {
   text-align: center;
+  /*padding: 0 5vh 0 0;*/
   /*margin: auto;*/
   /*flex-wrap: reverse;
   justify-content: space-around;*/
@@ -217,6 +194,58 @@ nav {
   color: white;
 }
 
+.about-container {
+  background: #E5E5E5;
+  color: #333333;
+  height: 250px;
+}
+
+.me {
+  background-image: url('../images/me.JPG');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 500px;
+  color: white;
+  margin:auto;
+  background-color: #E5E5E5;
+}
+
+
+.button {
+  border-style: solid;
+  border-width: 0px 0px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  color: #cccccc;
+  display: inline-block;
+  font-style: normal;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 200ms ease-in-out 0s;
+  white-space: nowrap;
+  font-weight: 700;
+  padding: 19px 39px 18px;
+  font-size: 14px;
+  /*border-color: #326E99;*/
+  background-color:  #333333;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 7vh 5vh 0;
+}
+
+.button:hover,
+.github:hover,
+.linkedin:hover,
+.google:hover,
+.codewars:hover {
+  color: white;
+  background-color: #404040;
+}
+
+/*WORK PAGE */
+
 .container-bok {
   font-family: hero;
   text-align: center;
@@ -229,20 +258,6 @@ nav {
   padding: 20vh;
   color: white;
 }
-
-/*work on this one*/
-/*.proj-image:hover,
-.proj2-image:hover,
-.proj3-image:hover {
-  opacity: 0.5;
-}*/
-
-/*work on this one */
-/*.work-titles:hover {*/
-  /*color: #333333;*/
-  /*opacity: 1;
-  z-index: 1;
-}*/
 
 .burger-image{
   background-image: url('../images/wall.jpg');
@@ -285,12 +300,6 @@ nav {
   height: 400px;
 }
 
-.about-container {
-  background: #E5E5E5;
-  color: #333333;
-  height: 250px;
-}
-
 .work-container {
   background: #E5E5E5;
   color: #333333;
@@ -319,6 +328,15 @@ nav {
   flex: 1;
 }
 
+.other-projects {
+  font-family: Hero;
+  text-align: center;
+  padding: 10vh;
+  font-size: 25px;
+}
+
+/*CASE STUDY PAGES*/
+
 .case-link {
   color: white;
 }
@@ -345,58 +363,46 @@ nav {
   height: 400px;
 }
 
-.other-projects,
-.get-in-touch {
+/*UNUSED CSS*/
+
+/*.container {
+  background: #e9e9f0;
+  height: 500vh;
+  margin: 0 40vw 0 10vw;
+}*/
+
+/*.viewport {
+  background-size: cover;
+  background-image: url('../images/background-18.png');
+  height: 120vh;
+  zoom: 1;
+}*/
+
+/*footer {
+  background: #e9e9f0;
+  text-align: center;
+  padding: 3vh;
   font-family: Hero;
-  text-align: center;
-  padding: 10vh;
-  font-size: 25px;
-}
+  display: flex;
+  justify-content: flex-end;
+}*/
 
-.me {
-  background-image: url('../images/me.JPG');
-  background-repeat: no-repeat;
+/*.background-image{
+  background-image: url('../images/wall.jpg');
+  zoom: .3;
   background-position:center;
-  width: 100%;
-  height: 500px;
-  color: white;
-  margin:auto;
-  background-color: #cccccc;
-}
+}*/
 
-.container{
-    text-align:center;
-    color:#FFF;
-    font-weight:bold;
-}
+/*work on this one*/
+/*.proj-image:hover,
+.proj2-image:hover,
+.proj3-image:hover {
+  opacity: 0.5;
+}*/
 
-.button {
-  border-style: solid;
-  border-width: 0px 0px 3px;
-  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  color: #cccccc;
-  display: inline-block;
-  font-style: normal;
-  overflow: hidden;
-  text-align: center;
-  text-decoration: none;
-  text-overflow: ellipsis;
-  transition: all 200ms ease-in-out 0s;
-  white-space: nowrap;
-  font-weight: 700;
-  padding: 19px 39px 18px;
-  font-size: 14px;
-  /*border-color: #326E99;*/
-  background-color:  #333333;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.button:hover,
-.github:hover,
-.linkedin:hover,
-.google:hover,
-.codewars:hover {
-  color: white;
-  background-color: #404040;
-}
+/*work on this one */
+/*.work-titles:hover {*/
+  /*color: #333333;*/
+  /*opacity: 1;
+  z-index: 1;
+}*/
