@@ -25,6 +25,10 @@ body {
 
 /*USED ACROSS MULTIPLE PAGES*/
 
+hr {
+  text-align:center; margin: 0 auto
+}
+
 .h1 {
   font-family: Hero;
   padding: 25vh;
@@ -320,51 +324,63 @@ nav {
   background: #E5E5E5;
   color: #333333;
   /*height: 400px;*/
-  margin: auto;
+  /*margin: auto;*/
 }
 
 .work-flex {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: auto;
+  /*display: flex;*/
+  /*justify-content: space-around;*/
+  /*flex-wrap: wrap;*/
+  /*align-items: center;*/
+  text-align: center;
+  /*margin: auto;*/
   padding-bottom: 10vh;
 }
 
 .image-design {
   zoom: .2;
-  margin: 3vh 3vh 0 3vh;
+  padding-bottom: 10vh;
+  /*margin: 3vh 3vh 0 3vh;*/
   /*flex: 1;*/
 }
 
 .image-design2 {
   zoom: .3;
-    margin: 3vh 3vh 0 3vh;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+    /*margin: 3vh 3vh 0 3vh;*/
   /*flex: 1;*/
 }
 
 .image-design3 {
   zoom: .2;
-    margin: 3vh 3vh 0 3vh;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+    /*margin: 3vh 3vh 0 3vh;*/
   /*flex: 1;*/
 }
 
 .image-design4 {
   zoom: .2;
-    margin: 3vh 3vh 0 3vh;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+    /*margin: 3vh 3vh 0 3vh;*/
   /*flex: 1;*/
 }
 
 .image-design5 {
   zoom: .2;
-    margin: 3vh 3vh 0 3vh;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+    /*margin: 3vh 3vh 0 3vh;*/
   /*flex: 1;*/
 }
 
 .image-design6 {
   zoom: .2;
-    margin: 3vh 3vh 0 3vh;
+  padding-bottom: 10vh;
+  padding-top: 10vh;    
+    /*margin: 3vh 3vh 0 3vh;*/
   /*flex: 1;*/
 }
 

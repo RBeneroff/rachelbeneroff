@@ -17,6 +17,7 @@ To Do:
 - add animation to words/timed transition on words
 
 # Work/Projects
+- if keep all on one page - do link in head image that scrolls down to design and development when clicked
 - do a wide screen image with description underneath
 - link to site
 - what I did, how I did it, technologies used, what I would have done differently
