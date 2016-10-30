@@ -13,7 +13,6 @@
           $('.container').each(function() {
               var $element = $(this);
               // subtract some from the height b/c of the padding
-              // -500
               var height = $element.height()-500;
               $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px');
           });

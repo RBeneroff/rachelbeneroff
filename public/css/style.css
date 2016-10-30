@@ -164,7 +164,8 @@ nav {
   width: 600px;
   height: 300px;*/
   /*margin: auto;*/
-  padding-top: 15vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
 .about-buttons {
@@ -211,6 +212,11 @@ nav {
   background-color: #E5E5E5;
 }
 
+.get-in-touch {
+  font-family: Hero;
+  text-align: center;
+  padding-top: 10vh;
+}
 
 .button {
   border-style: solid;
@@ -233,6 +239,7 @@ nav {
   cursor: pointer;
   border-radius: 5px;
   /*margin: 0 7vh 5vh 0;*/
+  /*flex: 2;*/
 }
 
 .button:hover,
@@ -304,34 +311,58 @@ nav {
   background: #E5E5E5;
   color: #333333;
   /*height: 400px;*/
+  margin: auto;
 }
 
 .work-flex {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 10vh;
 }
 
 .image-design {
-  zoom: .3;
-  flex: 1;
+  zoom: .2;
+  margin: 3vh 3vh 0 3vh;
+  /*flex: 1;*/
 }
 
 .image-design2 {
-  zoom: .2;
-  flex: 1;
+  zoom: .3;
+    margin: 3vh 3vh 0 3vh;
+  /*flex: 1;*/
 }
 
 .image-design3 {
   zoom: .2;
-  flex: 1;
+    margin: 3vh 3vh 0 3vh;
+  /*flex: 1;*/
+}
+
+.image-design4 {
+  zoom: .2;
+    margin: 3vh 3vh 0 3vh;
+  /*flex: 1;*/
+}
+
+.image-design5 {
+  zoom: .2;
+    margin: 3vh 3vh 0 3vh;
+  /*flex: 1;*/
+}
+
+.image-design6 {
+  zoom: .2;
+    margin: 3vh 3vh 0 3vh;
+  /*flex: 1;*/
 }
 
 .other-projects {
   font-family: Hero;
   text-align: center;
-  padding: 10vh;
+  padding: 10vh 0 3vh 0;
   font-size: 25px;
 }
 
