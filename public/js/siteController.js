@@ -6,13 +6,14 @@
     function SiteController($scope) {
       var self = this;
 
-      var velocity = 0.5;
+      var velocity = 0.1;
 
       function update(){
           var pos = $(window).scrollTop();
           $('.container').each(function() {
               var $element = $(this);
               // subtract some from the height b/c of the padding
+              // -500
               var height = $element.height()-500;
               $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px');
           });
