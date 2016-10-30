@@ -358,8 +358,24 @@ nav {
   text-align: center;
 }
 
-.case-image {
+.case-image-bok {
   background-image: url('../images/computer-bok-17.png');
+  height: 2200px;
+  zoom: .3;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.case-image-tuts {
+  background-image: url('../images/computer-tuts-18.png');
+  height: 2200px;
+  zoom: .3;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.case-image-final {
+  background-image: url('../images/computer-19.png');
   height: 2200px;
   zoom: .3;
   background-repeat: no-repeat;
@@ -369,10 +385,36 @@ nav {
 .case-body {
   background-color: #E5E5E5;
   /*background-color: white;*/
-  height: 400px;
+  height: 300px;
   width: 70%;
   margin: auto;
   text-align: left;
+}
+
+.view-others {
+  height: 300px;
+  /*background-color: white;*/
+  font-family: Hero;
+  text-align: center;
+}
+
+.squares {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+
+}
+
+.s1,
+.s2,
+.s3 {
+  height: 200px;
+  width: 250px;
+  background-color: #333333;
+  flex: 1
+  padding: 10vw;
+  margin: auto;
+  cursor: pointer;
 }
 
 /*UNUSED CSS*/
