@@ -232,7 +232,7 @@ nav {
   background-color:  #333333;
   cursor: pointer;
   border-radius: 5px;
-  margin: 0 7vh 5vh 0;
+  /*margin: 0 7vh 5vh 0;*/
 }
 
 .button:hover,
@@ -335,8 +335,6 @@ nav {
   font-size: 25px;
 }
 
-/*CASE STUDY PAGES*/
-
 .case-link {
   color: white;
 }
@@ -345,22 +343,36 @@ nav {
   color: #E5E5E5;
 }
 
+/*CASE STUDY PAGES*/
+
 .case {
   /*width: 800px;
   height: 400px;*/
   margin: auto;
-  text-align: center;
   font-family: Hero;
 }
 
 .case-heading {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 7vh;
+  /*margin-bottom: 10vh;*/
+  text-align: center;
+}
+
+.case-image {
+  background-image: url('../images/computer-bok-17.png');
+  height: 2200px;
+  zoom: .3;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .case-body {
   background-color: #E5E5E5;
+  /*background-color: white;*/
   height: 400px;
+  width: 70%;
+  margin: auto;
+  text-align: left;
 }
 
 /*UNUSED CSS*/
