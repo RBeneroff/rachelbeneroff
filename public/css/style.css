@@ -266,8 +266,8 @@ nav {
   color: white;
 }
 
-.burger-image{
-  background-image: url('../images/wall.jpg');
+.header-image{
+  background-image: url('../images/WineBottles.jpg');
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
