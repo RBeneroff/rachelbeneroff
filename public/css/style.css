@@ -283,7 +283,7 @@ nav {
 }
 
 .proj-image{
-  background-image: url('../images/BokBurgerList.png');
+  background-image: url('../images/work-backgrounds-01.png');
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
@@ -292,7 +292,8 @@ nav {
 }
 
 .proj2-image{
-  background-image: url('../images/beach_vibrant.jpg');
+  /*background-image: url('../images/beach_vibrant.jpg');*/
+  background-image: url('../images/work-backgrounds-03.png');
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
