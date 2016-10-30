@@ -274,11 +274,11 @@ nav {
   height: 400px;
 }
 
-.bok-site {
+.site-link {
   color: white;
 }
 
-.bok-site:hover {
+.site-link:hover {
   color: #E5E5E5;
 }
 
@@ -293,7 +293,7 @@ nav {
 
 .proj2-image{
   /*background-image: url('../images/beach_vibrant.jpg');*/
-  background-image: url('../images/work-backgrounds-03.png');
+  background-image: url('../images/backgrounds3-03.png');
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
@@ -414,17 +414,47 @@ nav {
   background-position: center;
 }
 
+.body-width {
+  width: 100%;
+  background: white;
+}
+
 .case-body {
-  background-color: #E5E5E5;
+  /*background-color: #E5E5E5;*/
   /*background-color: white;*/
-  height: 300px;
+  /*height: 300px;*/
   width: 70%;
+  padding-top: 10vh;
   margin: auto;
   text-align: left;
+  padding-bottom: 10vh;
+}
+
+.case-text {
+  font-family: 'Taviraj', serif;
+}
+
+.case-pics {
+  height: 500px;
+  margin-top: -10vh;
+}
+
+#cow {
+  background-image: url('../images/cow-02.png');
+  zoom: .4;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cow:hover {
+  background-image: url('../images/cow-01.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .view-others {
   height: 300px;
+  padding-top: 10vh;
   /*background-color: white;*/
   font-family: Hero;
   text-align: center;
