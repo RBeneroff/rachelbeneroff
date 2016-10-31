@@ -26,7 +26,13 @@ body {
 /*USED ACROSS MULTIPLE PAGES*/
 
 hr {
-  text-align:center; margin: 0 auto
+  text-align: center; margin: 0 auto;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
+  background-image: -moz-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
+  background-image: -ms-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
+  background-image: -o-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
 }
 
 .h1 {
@@ -43,7 +49,7 @@ hr {
 /*INDEX PAGE */
 
 header {
-  background: #333333;
+  /*background: #333333;*/
   padding: .2vh;
   color: white;
   font-family: Hero;
@@ -51,24 +57,31 @@ header {
 
 #RB {
   padding: 4vh 0 0 2vw;
+  color: #333333;
+  font-size: 20px;
 }
 
 .navbar {
   padding: 0 5vw 3vh 5vw;
-  color: white;
+  color: #333333;
   margin-bottom: 9px;
 }
 
 .navbar:hover {
-  color: #E5E5E5;
+  /*color: #E5E5E5;*/
+  color: white;
   /*color: white;*/
 }
 
 .navbar.active {
-   box-shadow: inset 0 0px 0 #E5E5E5, inset 0 -5px 0px #E5E5E5;
+   box-shadow: inset 0 0px 0 #333333, inset 0 -5px 0px #333333;
    margin-bottom: 9px;
    /*margin-top: -5px;*/
 }
+
+/*.navbar.active:hover {
+   box-shadow: inset 0 0px 0 white, inset 0 -5px 0px white;
+}*/
 
 nav {
   display: flex;
@@ -337,11 +350,24 @@ nav {
   padding-bottom: 10vh;
 }
 
+.work-box {
+  width: 55%;
+  display: flex;
+  margin: auto;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+.design-desc {
+  flex: 1;
+  text-align: left;
+}
+
 .image-design {
   zoom: .2;
   padding-bottom: 10vh;
   /*margin: 3vh 3vh 0 3vh;*/
-  /*flex: 1;*/
+  flex: 1;
 }
 
 .image-design2 {
@@ -379,7 +405,7 @@ nav {
 .image-design6 {
   zoom: .2;
   padding-bottom: 10vh;
-  padding-top: 10vh;    
+  padding-top: 10vh;
     /*margin: 3vh 3vh 0 3vh;*/
   /*flex: 1;*/
 }
