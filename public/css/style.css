@@ -110,7 +110,8 @@ nav {
 #c4,
 #c5 {
   padding: 5vh;
-  color: #80AEFF;
+  /*color: #80AEFF;*/
+  color: #333333;
   cursor: pointer;
 }
 
@@ -123,16 +124,50 @@ nav {
   color: #3567BF;
 }
 
-#word-1,
-#word-3,
-#word-5,
-#word-2,
-#word-4 {
+#word-1 {
   font-family: Hero;
-  font-size: 100px;
+  font-size: 13vh;
   display: flex;
   justify-content: center;
-  color: #80AEFF;
+  /*color: #80AEFF;*/
+  color: #668BCC;
+  text-shadow: 2px 2px #B2CDFF;
+}
+
+#word-2 {
+  font-family: Hero;
+  font-size: 13vh;
+  display: flex;
+  justify-content: center;
+  color: #46608C;
+  text-shadow: 2px 2px #B2CDFF;
+}
+
+#word-3 {
+  font-family: Hero;
+  font-size: 13vh;
+  display: flex;
+  justify-content: center;
+  color: #26344C;
+  text-shadow: 2px 2px #B2CDFF;
+}
+
+#word-4 {
+  font-family: Hero;
+  font-size: 13vh;
+  display: flex;
+  justify-content: center;
+  color: #6C94D9;
+  text-shadow: 2px 2px #B2CDFF;
+}
+
+#word-5 {
+  font-family: Hero;
+  font-size: 13vh;
+  display: flex;
+  justify-content: center;
+  color: #597AB2;
+  text-shadow: 2px 2px #B2CDFF;  
 }
 
 .typed-cursor{
