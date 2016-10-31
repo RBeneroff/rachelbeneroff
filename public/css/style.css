@@ -167,7 +167,7 @@ nav {
   display: flex;
   justify-content: center;
   color: #597AB2;
-  text-shadow: 2px 2px #B2CDFF;  
+  text-shadow: 2px 2px #B2CDFF;
 }
 
 .typed-cursor{
@@ -396,6 +396,7 @@ nav {
 .design-desc {
   flex: 1;
   text-align: left;
+  font-family: 'Taviraj', serif;  
 }
 
 .image-design {
