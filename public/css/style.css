@@ -313,17 +313,49 @@ nav {
   font-family: 'Taviraj', serif;
 }*/
 
-.container-bok {
+/*.container-bok {
   font-family: hero;
   text-align: center;
   /*font-size: 25px;*/
+/*}*/
+
+.break {
+  height: 50px;
+  display: flex;
 }
 
-.work-titles,
+/*.go-to {
+  flex: 4;
+  justify-content: space-between;
+  padding: 1vh 0vh 1vh 0vh;
+  text-align: center;
+}*/
+
 .about-heading {
   font-family: Hero;
   padding: 20vh;
   color: white;
+}
+
+.work-titles {
+  font-family: Hero;
+  padding: 20vh;
+  color: white;
+  text-align: right;
+}
+
+.work-titles1 {
+  font-family: Hero;
+  padding: 20vh;
+  color: #333333;
+  text-align: right;
+}
+
+.work-titles2 {
+  font-family: Hero;
+  padding: 20vh;
+  color: #333333;
+  text-align: left;
 }
 
 .header-image{
@@ -338,12 +370,16 @@ nav {
   color: white;
 }
 
+.site-link1 {
+  color: #333333;
+}
+
 .site-link:hover {
   color: #E5E5E5;
 }
 
 .proj-image{
-  background-image: url('../images/work-backgrounds-01.png');
+  background-image: url('../images/work-backgrounds1-01.png');
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
@@ -353,7 +389,7 @@ nav {
 
 .proj2-image{
   /*background-image: url('../images/beach_vibrant.jpg');*/
-  background-image: url('../images/backgrounds3-03.png');
+  background-image: url('../images/work-backgrounds-04.png');
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
@@ -458,6 +494,10 @@ nav {
   color: white;
 }
 
+.case-link1 {
+  color: #333333;
+}
+
 .case-link:hover {
   color: #E5E5E5;
 }
@@ -536,6 +576,13 @@ nav {
 
 #cow:hover {
   background-image: url('../images/cow-01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#task {
+  background-image: url('../images/time-example.png');
+  zoom: .35;
   background-repeat: no-repeat;
   background-position: center;
 }
