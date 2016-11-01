@@ -11,6 +11,7 @@
       url: '/',
       templateUrl: 'home.html',
     })
+        // .state('home.about',
     .state('about', {
       url: '/about',
       templateUrl: 'about.html',
@@ -19,6 +20,7 @@
       url:'/contact',
       templateUrl: 'contact.html',
     })
+    // home.about.work
     .state('work', {
       url:'/work',
       templateUrl: 'work.html',

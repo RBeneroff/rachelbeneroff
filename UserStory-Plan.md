@@ -25,6 +25,7 @@ To Do:
 
 # About
 - add a word cloud of my skills?
+- add What I do & skills
 
 General:
 - text is serif
@@ -39,3 +40,6 @@ Front end frameworks to look into:
 - Bootstrap
 - Materialize
 - Material Design Lite (CSS framework by Google)
+
+Color Scheme:
+- grays and blues
