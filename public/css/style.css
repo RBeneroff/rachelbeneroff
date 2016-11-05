@@ -370,7 +370,7 @@ nav {
 .work-titles {
   font-family: Hero;
   padding: 20vh;
-  color: white;
+  color: #333333;
   text-align: right;
 }
 
@@ -420,7 +420,6 @@ nav {
 }
 
 .proj2-image{
-  /*background-image: url('../images/beach_vibrant.jpg');*/
   background-image: url('../images/work-backgrounds-04.png');
   background-repeat: no-repeat;
   background-position:center;
@@ -429,7 +428,7 @@ nav {
 }
 
 .proj3-image{
-  background-image: url('../images/Charleston1910 copy.jpg');
+  background-image: url('../images/work-backgrounds-06.png');
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
@@ -523,10 +522,6 @@ nav {
 }
 
 .case-link {
-  color: white;
-}
-
-.case-link1 {
   color: #333333;
 }
 
