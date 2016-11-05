@@ -594,6 +594,44 @@ nav {
   margin-top: -10vh;
 }
 
+.case-pics2 {
+  height: 200px;
+  /*margin: auto;*/
+  margin-top: 10vh;
+}
+
+#typed,
+.cursor {
+    font-size: 15vh;
+}
+
+.cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.animation {
+  display: flex;
+  justify-content: center;
+}
+
 #cow {
   background-image: url('../images/cow-02.png');
   zoom: .4;
@@ -636,12 +674,6 @@ nav {
 }
 
 .s3 {
-  /*height: 200px;
-  width: 250px;*/
-  /*height: 200px;
-  width: 250px;*/
-  /*background-color: #333333;*/
-    /*background-image: url('../images/squares-20.png');*/
   flex: 1
   padding: 10vw;
   margin: auto;
@@ -650,28 +682,13 @@ nav {
 }
 
 .s2 {
-  /*height: 200px;
-  width: 250px;*/
-  /*height: 200px;
-  width: 250px;*/
-  /*background-color: #333333;*/
-  /*background-image: url('../images/squares-21.png');*/
   flex: 1
-  /*padding: 10vw;*/
   margin: auto;
   cursor: pointer;
   border: 2px solid #333333;
 }
 
 .s1 {
-  /*height: 200px;
-  width: 250px;*/
-  /*height: 200px;
-  width: 250px;*/
-  /*background-color: #333333;*/
-  /*background-image: url('../images/squares-22.png');*/
-  /*flex: 1*/
-  /*padding: 10vw;*/
   margin: auto;
   cursor: pointer;
   border: 2px solid #333333;
@@ -720,35 +737,3 @@ nav {
   /*opacity: 1;
   z-index: 1;
 }*/
-
-.animation {
-  display: flex;
-  justify-content: center;
-}
-
-#typed,
-.cursor {
-    font-size: 15vh;
-}
-
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}

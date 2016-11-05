@@ -1,11 +1,12 @@
 {
   "name": "RBeneroff",
   "version": "1.0.0",
-  "description": "",
+  "description": "personal website",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "dependencies": {
     "bower": "^1.7.9",
     "express": "^4.14.0",
+    "morgan": "^1.7.0",
     "path": "^0.12.7"
   },
   "engines": {
