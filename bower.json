@@ -1,0 +1,20 @@
+{
+  "name": "rbeneroff",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Rachel Beneroff <rbbeneroff@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/RBeneroff/rachelbeneroff",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "typed.js": "^1.1.4"
+  }
+}
