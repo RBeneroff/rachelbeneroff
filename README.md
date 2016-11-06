@@ -25,3 +25,6 @@ Technologies used: AngularJS, JS, HTML, CSS
 General:
 - text is serif
 - headings, buttons are Hero
+
+Plugins:
+https://github.com/mattboldt/typed.js/
