@@ -56,6 +56,7 @@ header {
 }
 
 #RB {
+  text-decoration: none;
   padding: 4vh 0 0 2vw;
   color: #333333;
   font-size: 20px;
@@ -73,6 +74,10 @@ header {
   /*color: white;*/
 }
 
+/*#RB:hover {
+  color: #404040;
+}*/
+
 .navbar.active {
    box-shadow: inset 0 0px 0 #333333, inset 0 -5px 0px #333333;
    margin-bottom: 9px;
@@ -86,7 +91,7 @@ header {
 nav {
   display: flex;
   justify-content: flex-end;
-  margin-top: -3vh;
+  margin-top: -2vh;
 }
 
 /*HOME PAGE*/
@@ -170,7 +175,7 @@ nav {
   display: flex;
   justify-content: center;
   /*color: #597AB2;*/
-  color: #26344C;  
+  color: #26344C;
   text-shadow: 2px 2px #B2CDFF;
 }
 
@@ -599,14 +604,14 @@ nav {
 }
 
 .case-pics2 {
-  height: 200px;
+  height: 150px;
   /*margin: auto;*/
   margin-top: 10vh;
 }
 
 #typed,
 .cursor {
-    font-size: 15vh;
+    font-size: 10vh;
 }
 
 .cursor{

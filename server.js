@@ -5,6 +5,8 @@ var path           = require('path');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/scripts', express.static(__dirname + '/bower_components'))
+
 app.get('/', function(req, res) {
   res.render('index');
 });
