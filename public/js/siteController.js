@@ -21,7 +21,6 @@
       $(window).bind('scroll', update);
 
 
-      // $('.dropdown-toggle').dropdown()
 
 
     } //SiteController

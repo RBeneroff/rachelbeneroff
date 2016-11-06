@@ -130,7 +130,8 @@ nav {
   display: flex;
   justify-content: center;
   /*color: #80AEFF;*/
-  color: #668BCC;
+  /*color: #668BCC;*/
+  color: #26344C;
   text-shadow: 2px 2px #B2CDFF;
 }
 
@@ -139,7 +140,8 @@ nav {
   font-size: 13vh;
   display: flex;
   justify-content: center;
-  color: #46608C;
+  /*color: #46608C;*/
+  color: #26344C;
   text-shadow: 2px 2px #B2CDFF;
 }
 
@@ -157,7 +159,8 @@ nav {
   font-size: 13vh;
   display: flex;
   justify-content: center;
-  color: #6C94D9;
+  /*color: #6C94D9;*/
+  color: #26344C;
   text-shadow: 2px 2px #B2CDFF;
 }
 
@@ -166,7 +169,8 @@ nav {
   font-size: 13vh;
   display: flex;
   justify-content: center;
-  color: #597AB2;
+  /*color: #597AB2;*/
+  color: #26344C;  
   text-shadow: 2px 2px #B2CDFF;
 }
 
@@ -238,8 +242,6 @@ nav {
   text-align: center;
   /*padding: 0 5vh 0 0;*/
   /*margin: auto;*/
-  /*flex-wrap: reverse;
-  justify-content: space-around;*/
 }
 
 .resume,
@@ -304,6 +306,8 @@ nav {
 }
 
 .button {
+  /*width: 125px;
+  height: 125px;*/
   border-style: solid;
   border-width: 0px 0px 3px;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
@@ -317,13 +321,13 @@ nav {
   transition: all 200ms ease-in-out 0s;
   white-space: nowrap;
   font-weight: 700;
-  padding: 19px 39px 18px;
-  font-size: 14px;
-  /*border-color: #326E99;*/
+  padding: 19px 30px 18px 39px;
+  font-size: 12px;
   background-color:  #333333;
   cursor: pointer;
   border-radius: 5px;
-  /*margin: 0 7vh 5vh 0;*/
+  text-align: center;
+  margin: 0 4vh 0 0;
   /*flex: 2;*/
 }
 
