@@ -691,27 +691,23 @@ nav {
 .image {
   height: 200px;
   width: 250px;
+  border: 2px solid #333333;
+  border-radius: 5px;
 }
 
 .s3 {
-  flex: 1
-  padding: 10vw;
   margin: auto;
   cursor: pointer;
-  border: 2px solid #333333;
 }
 
 .s2 {
-  flex: 1
   margin: auto;
   cursor: pointer;
-  border: 2px solid #333333;
 }
 
 .s1 {
   margin: auto;
   cursor: pointer;
-  border: 2px solid #333333;
 }
 
 /*UNUSED CSS*/

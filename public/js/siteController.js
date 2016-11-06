@@ -1,12 +1,14 @@
 (function() {
   angular
     .module('MySite')
-    .controller('SiteController', SiteController);
+    .controller('SiteController', SiteController)
+    // .element(document).ready(function () {
 
     function SiteController($scope) {
       var self = this;
-
       var velocity = 0.1;
+
+      // var $scope.init = function() {
 
       function update(){
           var pos = $(window).scrollTop();
@@ -18,10 +20,14 @@
           });
       };
 
-      $(window).bind('scroll', update);
+        $(window).bind('scroll', update);
 
+      // }
 
+      // $timeout($scope.init)
 
+    // $scope.$on('$stateChangeSuccess', function () {
 
     } //SiteController
+    // });
 })() //IIFE
