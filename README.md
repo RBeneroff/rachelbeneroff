@@ -5,17 +5,17 @@ www.rachelbeneroff.site
 
 Technologies used: AngularJS, JS, HTML, CSS
 
-# To Do:
+## To Do:
 - finish case studies
 - make own logo
 - DRY up word animations/transition duration
 - Work -- need to split up into 2 pages eventually (development and design)
 
-# Ideas:
+## Ideas:
 - one page where nav bar stays at top and changes with page on
 - navbar: can i make the underline slide?
 
-## Work/Projects
+### Work/Projects
 - if keep all on one page - do link in head image that scrolls down to design and development when clicked
 - do a wide screen image with description underneath
 - link to site
