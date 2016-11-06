@@ -25,6 +25,7 @@ Technologies used: AngularJS, JS, HTML, CSS
 General:
 - text is serif
 - headings, buttons are Hero
+- make all text color #333333
 
 Bugs to fix:
 - (work) top scroll image jumps when first move on page

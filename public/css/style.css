@@ -2,6 +2,7 @@
 
 *  {
   margin: 0;
+  color: #333333;
 }
 
 @font-face {
@@ -21,6 +22,7 @@ body {
   /*background-color: #333333;*/
   /*background-color: #CCCCCC;*/
   background-color: #E5E5E5;
+  color: #333333;
 }
 
 /*USED ACROSS MULTIPLE PAGES*/
@@ -659,6 +661,15 @@ nav {
   zoom: .35;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.plugins {
+  text-decoration: none;
+  color: #333333;
+}
+
+.plugins:hover {
+  color: #CCCCCC;
 }
 
 .view-others {
