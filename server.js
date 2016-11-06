@@ -1,11 +1,15 @@
 var express        = require('express'),
     app            = express();
 var path           = require('path');
+var favicon = require('serve-favicon');
 // var bootstrap      = require('bootstrap');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/scripts', express.static(__dirname + '/bower_components'))
+app.use(favicon(__dirname + '/favicon.ico'));
+
+app.use('/scripts', express.static(__dirname + '/bower_components'));
+
 
 app.get('/', function(req, res) {
   res.render('index');
