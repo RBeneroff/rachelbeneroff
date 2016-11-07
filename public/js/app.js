@@ -37,9 +37,13 @@
       url:'/final-project',
       templateUrl: 'final.html',
     })
-    .state('design', {
+    .state('work.design', {
       url:'/design',
       templateUrl: 'design.html',
+    })
+    .state('work.development', {
+      url:'/development',
+      templateUrl: 'development.html',
     })
 
     $urlRouterProvider.otherwise('/');

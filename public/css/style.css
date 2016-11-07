@@ -362,14 +362,20 @@ nav {
 .break {
   height: 50px;
   display: flex;
+  justify-content: space-around;
+  font-family: Hero;
 }
 
-/*.go-to {
-  flex: 4;
-  justify-content: space-between;
+.go-to {
+  /*flex: 6;*/
+  justify-content: space-around;
   padding: 1vh 0vh 1vh 0vh;
   text-align: center;
-}*/
+}
+
+.h:hover {
+  color: #CCCCCC;
+}
 
 .about-heading {
   font-family: Hero;
@@ -381,7 +387,7 @@ nav {
 
 .work-titles {
   font-family: Hero;
-  padding: 20vh;
+  padding: 20vh 20vh 0 20vh;
   color: #333333;
   text-align: right;
 }
