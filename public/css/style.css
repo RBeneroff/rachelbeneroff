@@ -374,6 +374,7 @@ nav {
 .about-heading {
   font-family: Hero;
   padding: 10vh;
+  text-align: center;
   color: #333333;
   /*color: #E5E5E5;*/
 }
@@ -539,6 +540,83 @@ nav {
 .Taviraj:hover {
   color: #E5E5E5;
   /*color: white;*/
+}
+
+/*DESIGN PAGE*/
+
+.design-container img {
+  cursor: pointer;
+  -webkit-transition:opacity 0.26s ease-out;
+  -moz-transition:opacity 0.26s ease-out;
+  -ms-transition:opacity 0.26s ease-out;
+  -o-transition:opacity 0.26s ease-out;
+  transition:opacity 0.26s ease-out;
+}
+
+.design-flex:hover img {
+  opacity: 0.1;
+}
+
+.design-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row;
+  flex-wrap: wrap;
+  /*position: absolute;*/
+}
+
+.design3,
+.design,
+.design2,
+.design4,
+.design5,
+.design6 {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  margin: 2vh 0 2vh 0;
+}
+
+#griffen {
+  zoom: .5;
+}
+
+#greenway {
+  zoom: .5;
+}
+
+#ntrinsiq {
+  zoom: .5;
+}
+
+#myb {
+  zoom: .4;
+}
+
+#myb2 {
+  zoom: .7;
+}
+
+
+#hcg {
+  zoom: .4;
+}
+
+.design-flex:hover img:hover {
+  opacity: 1;
+  overflow: visible;
+}
+
+.design3:hover,
+.design:hover,
+.design2:hover,
+.design4:hover,
+.design5:hover,
+.design6:hover {
+  overflow: visible;
+  position: relative;
+  z-index: 100;
 }
 
 /*CASE STUDY PAGES*/
