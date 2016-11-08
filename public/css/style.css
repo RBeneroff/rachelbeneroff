@@ -240,7 +240,13 @@ nav {
 .about-buttons {
   text-align: center;
   /*padding: 0 5vh 0 0;*/
-  /*margin: auto;*/
+}
+
+.contact-buttons {
+  text-align: center;
+  /*padding: 0 5vh 0 0;*/
+  margin: auto;
+  width: 60%;
 }
 
 .resume,
@@ -301,7 +307,7 @@ nav {
 }
 
 .email {
-  zoom: .05;
+  zoom: .045;
   /*margin: auto;*/
 }
 
@@ -333,7 +339,6 @@ nav {
   border-radius: 5px;
   text-align: center;
   margin: 2vh 2vh 2vh 2vh;
-  /*flex: 2;*/
 }
 
 .button:hover,
@@ -818,7 +823,7 @@ nav {
 
 /*UNUSED CSS*/
 
-/*hr {
+hr {
   text-align: center; margin: 0 auto;
   border: 0;
   height: 1px;
@@ -826,7 +831,7 @@ nav {
   background-image: -moz-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
   background-image: -ms-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
   background-image: -o-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
-}*/
+}
 
 /*.container-bok {
   font-family: hero;
