@@ -59,15 +59,15 @@ header {
   padding: 0 5vw 3vh 5vw;
   color: #333333;
   margin-bottom: 6px;
-
   text-decoration: none;
   display: inline-block;
   border-bottom: 3px solid transparent;
-  /*width: 0px;*/
   transition: 0.5s ease;
   white-space: nowrap;
   height: 25px;
 }
+/*FROM http://bradsknutson.com/blog/css-sliding-underline/*/
+
 
 .navbar:hover {
   /*color: #E5E5E5;*/
