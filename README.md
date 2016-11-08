@@ -20,16 +20,11 @@ Technologies used: AngularJS, JS, HTML, CSS
 - what I did, how I did it, technologies used, what I would have done differently
 - try Stellar.js
 
-General:
-- text is serif
-- headings, buttons are Hero
-- make all text color #333333
 
 Bugs to fix:
 - (work) top scroll image jumps when first move on page
 - onload -- slow load/images loading at different times
 - about page is not centered? some weird margin on right of page
-- Hero font is not carrying over to other people's browsers
 - fix ui-sref-active so that work is underlined when design is chosen
 
 Plugins:
