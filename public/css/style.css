@@ -5,6 +5,10 @@
   color: #333333;
 }
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+ }
+
 @font-face {
   font-family: 'Hero';
   src: url('../css/fonts/Hero.otf') format('opentype');
@@ -22,6 +26,7 @@ p {
 body {
   background-color: #E5E5E5;
   color: #333333;
+  visibility: hidden;
 }
 
 /*USED ACROSS MULTIPLE PAGES*/
@@ -67,7 +72,6 @@ header {
   height: 25px;
 }
 /*FROM http://bradsknutson.com/blog/css-sliding-underline/*/
-
 
 .navbar:hover {
   /*color: #E5E5E5;*/
