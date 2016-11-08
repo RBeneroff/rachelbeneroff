@@ -20,23 +20,11 @@ p {
 }
 
 body {
-  /*background-color: #333333;*/
-  /*background-color: #CCCCCC;*/
   background-color: #E5E5E5;
   color: #333333;
 }
 
 /*USED ACROSS MULTIPLE PAGES*/
-
-hr {
-  text-align: center; margin: 0 auto;
-  border: 0;
-  height: 1px;
-  background-image: -webkit-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
-  background-image: -moz-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
-  background-image: -ms-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
-  background-image: -o-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
-}
 
 .h1 {
   /*font-family: 'Quicksand', sans-serif;*/
@@ -78,10 +66,6 @@ header {
   color: white;
   /*color: white;*/
 }
-
-/*#RB:hover {
-  color: #404040;
-}*/
 
 .navbar.active {
    box-shadow: inset 0 0px 0 #333333, inset 0 -5px 0px #333333;
@@ -215,7 +199,7 @@ nav {
 
 .about {
   background: #E5E5E5;
-  height: 325px;
+  /*height: 325px;*/
   text-align: center;
 }
 
@@ -223,9 +207,9 @@ nav {
   /*font-family: Hero;*/
   font-family: 'Taviraj', serif;
   /*margin-top: -5vh;*/
-  width: 70%;
+  /*width: 70%;*/
   /*margin: auto;*/
-  padding: 10vh 20vh 0 20vh;
+  padding: 10vh 20vh 8vh 20vh;
   font-size: 20px;
   color: #333333;
   /*text-align: left;*/
@@ -250,7 +234,7 @@ nav {
 }
 
 .about-padding {
-  padding-top: 12vh;
+  padding: 6vh 0 6vh 0;
 }
 
 .about-buttons {
@@ -285,7 +269,7 @@ nav {
   /*background-color: white;*/
   color: #333333;
   background-color: white;
-  height: 250px;
+  /*height: 250px;*/
 }
 
 .me {
@@ -343,7 +327,7 @@ nav {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-  margin: 0 4vh 0 0;
+  margin: 2vh 2vh 2vh 2vh;
   /*flex: 2;*/
 }
 
@@ -357,16 +341,6 @@ nav {
 }
 
 /*WORK PAGE */
-
-/*.Taviraj {
-  font-family: 'Taviraj', serif;
-}*/
-
-/*.container-bok {
-  font-family: hero;
-  text-align: center;
-  /*font-size: 25px;*/
-/*}*/
 
 .break {
   height: 50px;
@@ -834,6 +808,22 @@ nav {
 }
 
 /*UNUSED CSS*/
+
+/*hr {
+  text-align: center; margin: 0 auto;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
+  background-image: -moz-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
+  background-image: -ms-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
+  background-image: -o-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
+}*/
+
+/*.container-bok {
+  font-family: hero;
+  text-align: center;
+  /*font-size: 25px;*/
+/*}*/
 
 /*.container {
   background: #e9e9f0;
