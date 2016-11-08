@@ -645,13 +645,13 @@ nav {
 }
 
 .case-heading {
-  margin-top: 7vh;
+  margin-top: 5vh;
   /*margin-bottom: 10vh;*/
   text-align: center;
 }
 
 .case-image-bok {
-  background-image: url('../images/computer-bok-17.png');
+  background-image: url('../images/computer-17.png');
   height: 2200px;
   zoom: .3;
   background-repeat: no-repeat;
@@ -659,7 +659,7 @@ nav {
 }
 
 .case-image-tuts {
-  background-image: url('../images/computer-tuts-18.png');
+  background-image: url('../images/computer-18.png');
   height: 2200px;
   zoom: .3;
   background-repeat: no-repeat;
@@ -667,7 +667,7 @@ nav {
 }
 
 .case-image-spacedout {
-  background-image: url('../images/computer-23.png');
+  background-image: url('../images/computer-24.png');
   height: 2200px;
   zoom: .3;
   background-repeat: no-repeat;
