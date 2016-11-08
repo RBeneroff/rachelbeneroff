@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'Hero';
-  src: url('../fonts/Hero copy.otf');
+  src: url('../css/fonts/Hero.otf') format('opentype');
 }
 
 a {
@@ -16,6 +16,7 @@ a {
 
 p {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
 }
 
 body {
@@ -38,6 +39,7 @@ hr {
 }
 
 .h1 {
+  /*font-family: 'Quicksand', sans-serif;*/
   font-family: Hero;
   padding: 25vh;
 }
@@ -54,6 +56,7 @@ header {
   /*background: #333333;*/
   padding: .2vh;
   color: white;
+  /*font-family: 'Quicksand', sans-serif;*/
   font-family: Hero;
 }
 
@@ -133,6 +136,7 @@ nav {
 
 #word-1 {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   font-size: 13vh;
   display: flex;
   justify-content: center;
@@ -144,6 +148,7 @@ nav {
 
 #word-2 {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   font-size: 13vh;
   display: flex;
   justify-content: center;
@@ -154,6 +159,7 @@ nav {
 
 #word-3 {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   font-size: 13vh;
   display: flex;
   justify-content: center;
@@ -163,6 +169,7 @@ nav {
 
 #word-4 {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   font-size: 13vh;
   display: flex;
   justify-content: center;
@@ -173,6 +180,7 @@ nav {
 
 #word-5 {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   font-size: 13vh;
   display: flex;
   justify-content: center;
@@ -259,6 +267,7 @@ nav {
   font-size: 20px;
   /*font-family: 'Taviraj', serif;*/
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   color: #E5E5E5;
   display: flex;
   text-align: center;
@@ -364,10 +373,11 @@ nav {
   display: flex;
   justify-content: space-around;
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
 }
 
 .go-to {
-  /*flex: 6;*/
+  flex: 2;
   justify-content: space-around;
   padding: 1vh 0vh 1vh 0vh;
   text-align: center;
@@ -379,6 +389,7 @@ nav {
 
 .about-heading {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   padding: 10vh;
   text-align: center;
   color: #333333;
@@ -387,6 +398,7 @@ nav {
 
 .work-titles {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   padding: 15vh 15vh 0 15vh;
   color: #333333;
   text-align: right;
@@ -394,6 +406,7 @@ nav {
 
 .work-titles1 {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   padding: 15vh;
   color: #333333;
   text-align: right;
@@ -401,6 +414,7 @@ nav {
 
 .work-titles2 {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   padding: 15vh;
   color: #333333;
   text-align: left;
@@ -408,6 +422,7 @@ nav {
 
 .work-titles3 {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   padding: 15vh;
   color: white;
   text-align: left;
@@ -553,6 +568,7 @@ nav {
 
 .other-projects {
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
   text-align: center;
   padding: 10vh 0 3vh 0;
   font-size: 25px;
@@ -651,6 +667,7 @@ nav {
   height: 400px;*/
   margin: auto;
   font-family: Hero;
+  /*font-family: 'Quicksand', sans-serif;*/
 }
 
 .case-heading {
@@ -782,6 +799,7 @@ nav {
   padding-bottom: 10vh;
   /*background-color: white;*/
   font-family: Hero;
+/*font-family: 'Quicksand', sans-serif;*/
   text-align: center;
 }
 

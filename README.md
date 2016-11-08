@@ -8,9 +8,6 @@ Technologies used: AngularJS, JS, HTML, CSS
 ## To Do:
 - finish case studies/ design description
 - DRY up word animations/transition duration
-- Work -- need to split up into 2 pages (development and design)
-  - grid layout for design
-  - drop down menu for work
 
 ## Ideas:
 - one page where nav bar stays at top and changes with page on
@@ -33,6 +30,7 @@ Bugs to fix:
 - onload -- slow load/images loading at different times
 - about page is not centered? some weird margin on right of page
 - Hero font is not carrying over to other people's browsers
+- fix ui-sref-active so that work is underlined when design is chosen
 
 Plugins:
 https://github.com/mattboldt/typed.js/
