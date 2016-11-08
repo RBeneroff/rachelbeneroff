@@ -8,15 +8,15 @@
       var self = this;
       var speed = 0.1;
 
-      jQuery(document).ready(function(){
-  /* Show the HTML page only after the js and css are completely loaded */
-        delayShow();
-      });
-
-      function delayShow() {
-        var secs = 1000;
-        setTimeout('jQuery("body").css("visibility","visible");', secs);
-      }
+  //     jQuery(document).ready(function(){
+  // /* Show the HTML page only after the js and css are completely loaded */
+  //       delayShow();
+  //     });
+  //
+  //     function delayShow() {
+  //       var secs = 1000;
+  //       setTimeout('jQuery("body").css("visibility","visible");', secs);
+  //     }
 
       // var $scope.init = function() {
 
