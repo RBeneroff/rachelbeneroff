@@ -11,12 +11,12 @@
       // var $scope.init = function() {
 
       function update(){
-          var pos = $(window).scrollTop();
+          var position = $(window).scrollTop();
           $('.container').each(function() {
               var $element = $(this);
               // subtract some from the height b/c of the padding
               var height = $element.height()-500;
-              $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px');
+              $(this).css('backgroundPosition', '50% ' + Math.round((height - position) * velocity) + 'px');
           });
       };
 
