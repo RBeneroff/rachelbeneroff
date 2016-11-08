@@ -15,9 +15,9 @@ Technologies used: AngularJS, JS, HTML, CSS
 - navbar: can i make the underline slide?
 
 Bugs to fix:
-- (work) top scroll image jumps when first move on page
-- onload -- slow load/images loading at different times
+- (work) top parallax scroll image jumps when first move on page
+- (all - especially about & work) onload -- slow load/images loading at different times
 - fix ui-sref-active so that work is underlined when design is chosen
 
-Plugins:
+Plugins used:
 https://github.com/mattboldt/typed.js/

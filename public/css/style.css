@@ -305,6 +305,11 @@ nav {
   /*margin: auto;*/
 }
 
+#email-nav {
+  zoom: .02;
+  margin-top: -1000px;
+}
+
 .button {
   /*width: 125px;
   height: 125px;*/
