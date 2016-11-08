@@ -707,6 +707,10 @@ nav {
   margin-top: 10vh;
 }
 
+.case-website:hover {
+  color: #CCCCCC;
+}
+
 #typed,
 .cursor {
     font-size: 10vh;
