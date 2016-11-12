@@ -1,5 +1,5 @@
 # rachelbeneroff
-My Personal Website - under construction
+My Personal Website
 
 www.rachelbeneroff.site
 
