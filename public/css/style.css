@@ -585,6 +585,11 @@ nav {
   color: #333333;
 }
 
+.case-study {
+  /*font-size: 20px;*/
+  /*text-decoration: underline;*/
+}
+
 .case-study:hover {
   color: #E5E5E5;
   /*color: white;*/
@@ -738,6 +743,10 @@ nav {
   height: 150px;
   /*margin: auto;*/
   margin-top: 10vh;
+}
+
+.case-website {
+  font-weight: bold;
 }
 
 .case-website:hover {
