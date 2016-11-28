@@ -628,6 +628,44 @@ nav {
 
 /*CASE STUDY PAGES*/
 
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+  display: flex;
+  height: 100%;
+}
+
+.pixel1 {
+    margin-top: 3vh;
+    height:155px;
+    flex-basis: 25%;
+    justify-content: center;
+}
+
+.pixel2 {
+    margin-top: 3vh;
+    height:155px;
+    flex-basis: 40%;
+    justify-content: center;
+}
+
+.pixel3 {
+    margin-top: 3vh;
+    height:155px;
+    flex-basis: 10%;
+    justify-content: center;
+}
+
+.pixel4 {
+    margin-top: 3vh;
+    height:100px;
+    flex-basis: 80%;
+    justify-content: center;
+}
+
 .case {
   /*width: 800px;
   height: 400px;*/
@@ -711,8 +749,12 @@ nav {
 
 .case-pics2 {
   height: 150px;
-  /*margin: auto;*/
   margin-top: 10vh;
+}
+
+.case-pics3 {
+  margin-top: 10vh;
+  text-align: center;
 }
 
 .case-website {

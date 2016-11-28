@@ -6,8 +6,17 @@
       <p class='case-text'>
         Case Study In Development.
       </p>
-      <!-- <div class='case-pics2'>
-      </div> -->
+      <div class='case-pics3'>
+        <p class='text case-text'>Pick a color and click away!</p>
+        <br>
+        <input id='colorpicker' />
+        <br><br>
+        <div class='box-container'>
+        <div class="pixel1" style="background-color:#9ad4e2"></div>
+        <div class="pixel1" style="background-color:#8cbbd7"></div>
+        <div class="pixel2" style="background-color:#cecece"></div>
+      </div>
+      </div>
       <p class='case-text'>
       </p>
       <br><br>
@@ -37,3 +46,37 @@
     <div class='s3'><a ui-sref='spaced' ui-sref-active='active'><img src="/images/squares-22.png" alt="" class='image'/></a></div>
   </div>
 </div>
+
+
+
+<script>
+  var color = "#F6FFD2";
+  $("#colorpicker, #colorpicker-mobile").spectrum({
+      color: "#F6FFD2",
+      showPalette: true,
+      showInput: true,
+      showAlpha: true,
+      chooseText: "ok",
+      preferredFormat: "hex",
+      cancelText: "cancel",
+      togglePaletteOnly: true,
+      showPaletteOnly: true,
+      togglePaletteMoreText: "More Colors...",
+      togglePaletteLessText: "Less Colors...",
+      change: function(colorSelected, changeColor, changeText) {
+          color = colorSelected.toHexString();
+      }
+  });
+  $('.pixel1, .pixel2, .pixel3, .pixel4, .pixel5, .pixel6').click(function(){
+      $(this).css('background-color' , color);
+  });
+  $('.triangle3').click(function(){
+      $(this).css('border-top' , '280px solid' + color);
+  });
+  $('.box').click(function(changeColor){
+      $(this).css('background-color' , color);
+  });
+  $('.text').click(function(changeText){
+      $(this).css('color' , color);
+  });
+</script>
