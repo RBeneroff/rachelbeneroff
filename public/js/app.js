@@ -33,9 +33,17 @@
       url:'/turn-up-time-system',
       templateUrl: 'tuts.html',
     })
-    .state('final', {
-      url:'/final-project',
-      templateUrl: 'final.html',
+    .state('spaced', {
+      url:'/spaced-out',
+      templateUrl: 'spaced.html',
+    })
+    .state('blends', {
+      url:'/r-blends',
+      templateUrl: 'blends.html',
+    })
+    .state('simply', {
+      url:'/simply-shorten',
+      templateUrl: 'simply.html',
     })
     .state('work.design', {
       url:'/design',
