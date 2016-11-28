@@ -666,6 +666,22 @@ nav {
   background-position: center;
 }
 
+.case-image-blends {
+  background-image: url('../images/computer-25.png');
+  height: 2200px;
+  zoom: .3;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.case-image-simply {
+  background-image: url('../images/computer-26.png');
+  height: 2200px;
+  zoom: .3;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .body-width {
   width: 100%;
   background: white;
