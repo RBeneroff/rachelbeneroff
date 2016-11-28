@@ -374,13 +374,12 @@ nav {
   text-align: left;
 }
 
-.work-titles3 {
+/*.work-titles3 {
   font-family: Hero;
-  /*font-family: 'Quicksand', sans-serif;*/
   padding: 15vh;
   color: white;
   text-align: left;
-}
+}*/
 
 .white {
   color: white;
@@ -396,17 +395,17 @@ nav {
   height: 200px;
 }
 
-.site-link {
+/*.site-link {
   color: white;
-}
+}*/
 
 .site-link1 {
   color: #333333;
 }
 
-.site-link:hover {
+/*.site-link:hover {
   color: #E5E5E5;
-}
+}*/
 
 .proj-image{
   background-image: url('../images/work-backgrounds1-01.png');
@@ -434,7 +433,15 @@ nav {
 }
 
 .proj4-image{
-  background-image: url('../images/Charleston1910 copy.jpg');
+  background-image: url('../images/work-backgrounds-08.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 400px;
+}
+
+.proj5-image{
+  background-image: url('../images/work-backgrounds-07.png');
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
@@ -653,6 +660,22 @@ nav {
 
 .case-image-spacedout {
   background-image: url('../images/computer-24.png');
+  height: 2200px;
+  zoom: .3;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.case-image-blends {
+  background-image: url('../images/computer-25.png');
+  height: 2200px;
+  zoom: .3;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.case-image-simply {
+  background-image: url('../images/computer-26.png');
   height: 2200px;
   zoom: .3;
   background-repeat: no-repeat;
