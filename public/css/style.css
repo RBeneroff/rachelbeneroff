@@ -828,7 +828,7 @@ nav {
 }
 
 .view-others {
-  height: 250px;
+  height: 175px;
   padding-top: 10vh;
   padding-bottom: 10vh;
   /*background-color: white;*/
@@ -841,24 +841,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .image {
-  height: 200px;
-  width: 250px;
+  height: 120px;
+  width: 175px;
   border: 2px solid #333333;
   border-radius: 5px;
-}
-
-.s3 {
-  margin: auto;
-  cursor: pointer;
-}
-
-.s2 {
-  margin: auto;
-  cursor: pointer;
 }
 
 .s1 {
