@@ -23,7 +23,7 @@ p {
 }
 
 body {
-  background-color: #E5E5E5;
+  /*background-color: #E5E5E5;*/
   color: #333333;
   /*visibility: hidden;*/
 }
@@ -87,9 +87,14 @@ nav {
 
 /*HOME PAGE*/
 
+.home {
+  min-height: calc(80vh - 70px);
+}
+
 .sliders {
   text-align: center;
   padding-top: 25vh;
+  /*padding-bottom: 20vh;*/
 }
 
 .circles {
@@ -185,6 +190,13 @@ nav {
     100% { opacity:1; }
 }
 
+.continue,
+.push {
+  text-align: center;
+  height: 50px;
+  /*position: fixed;*/
+}
+
 /*ABOUT PAGE */
 
 .about {
@@ -194,7 +206,7 @@ nav {
 
 .brand-statement {
   font-family: 'Taviraj', serif;
-  padding: 10vh 20vh 8vh 20vh;
+  padding: 8vh 20vh 8vh 20vh;
   font-size: 20px;
   color: #333333;
 }
@@ -213,7 +225,7 @@ nav {
 }
 
 .skill {
-  zoom: .05
+  zoom: .045
 }
 
 .about-padding {
@@ -273,6 +285,14 @@ nav {
   align-items: center;
   flex-flow: row;
   background-color: #E5E5E5;
+  height: 200px;
+}
+
+.contact-form2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
   height: 200px;
 }
 
@@ -387,7 +407,7 @@ nav {
 
 .header-image{
   /*background-image: url('../images/WineBottles.jpg');*/
-  background-color: #E5E5E5;
+  /*background-color: #E5E5E5;*/
   /*background-color: #333333;*/
   background-repeat: no-repeat;
   background-position:center;
@@ -675,9 +695,11 @@ nav {
 }
 
 .case-heading {
-  margin-top: 5vh;
+  margin: 5vh 0 3vh 0;
   /*margin-bottom: 10vh;*/
   text-align: center;
+  /*padding: 5vh;
+  background-color: #E5E5E5;*/
 }
 
 .case-image-bok {
@@ -686,6 +708,7 @@ nav {
   zoom: .3;
   background-repeat: no-repeat;
   background-position: center;
+  /*background-color: #E5E5E5;*/
 }
 
 .case-image-tuts {
@@ -730,7 +753,7 @@ nav {
   /*background-color: white;*/
   /*height: 300px;*/
   width: 70%;
-  padding-top: 10vh;
+  padding-top: 5vh;
   margin: auto;
   text-align: left;
   padding-bottom: 10vh;
@@ -831,7 +854,7 @@ nav {
   height: 175px;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  /*background-color: white;*/
+  background-color: #E5E5E5;
   font-family: Hero;
 /*font-family: 'Quicksand', sans-serif;*/
   text-align: center;
