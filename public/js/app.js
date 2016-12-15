@@ -12,7 +12,7 @@
       templateUrl: 'home.html',
     })
         // .state('home.about',
-    .state('home.about', {
+    .state('about', {
       url: '/about',
       templateUrl: 'about.html',
     })
