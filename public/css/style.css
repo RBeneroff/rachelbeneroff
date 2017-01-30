@@ -92,8 +92,9 @@ nav {
 }
 
 .sliders {
-  text-align: center;
-  padding-top: 25vh;
+  /*text-align: center;*/
+  padding: 0 20vh 0 20vh;
+  /*padding-top: 25vh;*/
   /*padding-bottom: 20vh;*/
 }
 
@@ -124,53 +125,73 @@ nav {
 }
 
 #word-1 {
-  font-family: Hero;
+  /*font-family: Hero;
   font-size: 13vh;
   display: flex;
   justify-content: center;
   color: #80AEFF;
-  text-shadow: 2px 2px #26344C;
+  text-shadow: 2px 2px #26344C;*/
+  font-family: 'Taviraj', serif;
+  /*padding: 8vh 20vh 8vh 20vh;*/
+  font-size: 20px;
+  color: #333333;
 }
 
 #word-2 {
-  font-family: Hero;
+  /*font-family: Hero;
   font-size: 13vh;
   display: flex;
   justify-content: center;
   color: #80AEFF;
-  text-shadow: 2px 2px #26344C;
+  text-shadow: 2px 2px #26344C;*/
+  font-family: 'Taviraj', serif;
+  /*padding: 8vh 20vh 8vh 20vh;*/
+  font-size: 20px;
+  color: #333333;
 }
 
 #word-3 {
-  font-family: Hero;
+  /*font-family: Hero;
   font-size: 13vh;
   display: flex;
   justify-content: center;
   color: #80AEFF;
-  text-shadow: 2px 2px #26344C;
+  text-shadow: 2px 2px #26344C;*/
+  font-family: 'Taviraj', serif;
+  /*padding: 8vh 20vh 8vh 20vh;*/
+  font-size: 20px;
+  color: #333333;
 }
 
 #word-4 {
-  font-family: Hero;
+  /*font-family: Hero;
   font-size: 13vh;
   display: flex;
   justify-content: center;
   color: #80AEFF;
-  text-shadow: 2px 2px #26344C;
+  text-shadow: 2px 2px #26344C;*/
+  font-family: 'Taviraj', serif;
+  /*padding: 8vh 20vh 8vh 20vh;*/
+  font-size: 20px;
+  color: #333333;
 }
 
 #word-5 {
-  font-family: Hero;
+  /*font-family: Hero;
   font-size: 13vh;
   display: flex;
   justify-content: center;
   color: #80AEFF;
-  text-shadow: 2px 2px #26344C;
+  text-shadow: 2px 2px #26344C;*/
+  font-family: 'Taviraj', serif;
+  /*padding: 8vh 20vh 8vh 20vh;*/
+  font-size: 20px;
+  color: #333333;
 }
 
-#line2 {
+/*#line2 {
   font-size: 7vh;
-}
+}*/
 
 .typed-cursor{
     opacity: 1;
@@ -205,12 +226,13 @@ nav {
 
 .about {
   background: #E5E5E5;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .brand-statement {
   font-family: 'Taviraj', serif;
-  padding: 8vh 20vh 8vh 20vh;
+  /*padding: 8vh 20vh 8vh 20vh;*/
+  padding: 0 20vh 0 20vh;
   font-size: 20px;
   color: #333333;
 }
