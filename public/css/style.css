@@ -96,7 +96,7 @@ nav {
 .vertical {
   border-left: thick solid #333333;
   margin-left: 20vh;
-  margin-top: 5vh;
+  margin-top: 8vh;
 }
 
 .sliders {
@@ -362,15 +362,15 @@ nav {
 .box-two {
   height: 50px;
   width: 50%;
-  background-color: #4f607c;
+  background-color: #FFFAF1;
 }
 
 .box-two {
-  background-color: #cea69e;
+  background-color: #D0E0F6;
 }
 
 .one {
-  background-color: #cea69e;
+  background-color: #F6E9D0;
   height: 220px;
   width: 50%;
   background-image: url('../images/skill_icons2-17 small.png');
@@ -380,7 +380,7 @@ nav {
 }
 
 .two {
-  background-color: #ebf6f9;
+  background-color: #4C556E;
   height: 220px;
   width: 50%;
   background-image: url('../images/skill_icons2-14.png');
@@ -393,15 +393,17 @@ nav {
 .four {
   height: 100px;
   width: 50%;
-  background-color: #ebf6f9;
+  background-color: #83D2F7;
   text-align: center;
   padding: 80px 0 0 0;
   font-family: 'Hero';
   font-size: 20px;
+  color: white;
 }
 
 .four {
-  background-color: #cea69e;
+  background-color: #A99B7E;
+  color: #333333;
 }
 
 .three:hover,
