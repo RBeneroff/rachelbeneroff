@@ -300,6 +300,11 @@ nav {
   text-align: center;
 }
 
+.contact-page {
+  /*height: 100vh;
+  background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #E5E5E5 50%, #E5E5E5 100%);*/
+}
+
 .contact-buttons {
   text-align: center;
   margin: auto;
