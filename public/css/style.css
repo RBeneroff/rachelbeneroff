@@ -349,7 +349,7 @@ nav {
 }
 
 .five {
-  background-color: white;
+  background-color: #fffaf1;
   height: 250px;
   width: 100%;
   background-image: url('../images/skill_icons2-16 small.png');
@@ -362,15 +362,16 @@ nav {
 .box-two {
   height: 50px;
   width: 50%;
-  background-color: #FFFAF1;
+  background-color: #f6f9fd;
 }
 
 .box-two {
-  background-color: #D0E0F6;
+  background-color: #D6C4A0;
+  /*6d86a9*/
 }
 
 .one {
-  background-color: #F6E9D0;
+  background-color: #f6e9d0;
   height: 220px;
   width: 50%;
   background-image: url('../images/skill_icons2-17 small.png');
@@ -380,7 +381,8 @@ nav {
 }
 
 .two {
-  background-color: #4C556E;
+  background-color: #6d86a9;
+  /*4C556E*/
   height: 220px;
   width: 50%;
   background-image: url('../images/skill_icons2-14.png');
@@ -393,7 +395,8 @@ nav {
 .four {
   height: 100px;
   width: 50%;
-  background-color: #83D2F7;
+  background-color: #D0E0F6;
+  /*83D2F7*/
   text-align: center;
   padding: 80px 0 0 0;
   font-family: 'Hero';
@@ -402,7 +405,9 @@ nav {
 }
 
 .four {
-  background-color: #A99B7E;
+  background-color: #b8a889;
+  /*A99B7E*/
+  /*D6C4A0*/
   color: #333333;
 }
 
@@ -417,9 +422,13 @@ nav {
 }
 
 .get-in-touch {
-  font-family: 'Taviraj', serif;
-  /*font-family: 'Hero';*/
+  /*font-family: 'Taviraj', serif;*/
+  font-family: 'Hero';
   font-size: 20px;
+}
+
+.at {
+  /*font-family: Arial, sans-serif;*/
 }
 
 .contact-form {
