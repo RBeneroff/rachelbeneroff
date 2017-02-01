@@ -1,5 +1,5 @@
 # rachelbeneroff
-My Personal Website - currently under construction (mobile friendly & case studies)
+My Personal Website - currently under construction
 
 www.rachelbeneroff.site
 
