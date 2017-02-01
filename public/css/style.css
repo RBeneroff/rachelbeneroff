@@ -452,7 +452,7 @@ nav {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: space-around;*/
+  justify-content: space-around;
   margin: 0 15vh 0 15vh;
 }
 
@@ -462,7 +462,11 @@ nav {
   height: 50px;
   background-color: #f6f9fd;
   border-width: 0px;
+  cursor: pointer;
   margin-top: 2vh;
+  transition: all 200ms ease-in-out 0s;
+  display: flex;
+  justify-content: center;
 }
 
 .button2 {
@@ -471,7 +475,11 @@ nav {
   height: 50px;
   background-color: #D6C4A0;
   border-width: 0px;
+  cursor: pointer;
   margin-top: 2vh;
+  transition: all 200ms ease-in-out 0s;
+  display: flex;
+  justify-content: center;
 }
 
 /*.contact-buttons {
@@ -515,18 +523,15 @@ nav {
   text-align: center;
 }
 
-.resume:hover {
-  color: white;
+.resume:hover,
+.codewars:hover,
+.linkedin:hover {
+  color: #D6C4A0;
 }
 
-.button:hover,
-.button2:hover,
 .github:hover,
-.linkedin:hover,
-.google:hover,
-.codewars:hover {
-  color: white;
-  background-color: #404040;
+.google:hover {
+  color: #f6f9fd;
 }
 
 /*WORK PAGE */
