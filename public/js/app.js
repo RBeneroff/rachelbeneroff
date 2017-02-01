@@ -52,7 +52,7 @@
     .state('work.development', {
       url:'/development',
       templateUrl: 'development.html',
-    })
+    });
 
     $urlRouterProvider.otherwise('/');
 
@@ -62,4 +62,4 @@
     }); //locationProvider
 
   } //MainRouter
-})() //IIFE
+})(); //IIFE
