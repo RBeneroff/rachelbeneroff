@@ -470,8 +470,6 @@ nav {
   font-size: 20px;
   font-family: Hero;
   color: #333333;
-  display: flex;
-  text-align: center;
 }
 
 .button2 {
@@ -488,8 +486,6 @@ nav {
   font-size: 20px;
   font-family: Hero;
   color: #333333;
-  display: flex;
-  text-align: center;
 }
 
 /*.contact-buttons {
@@ -536,19 +532,30 @@ button:focus {
 /*WORK PAGE */
 
 .break {
-  height: 50px;
+  height: 180px;
   font-size: 20px;
   display: flex;
-  justify-content: space-around;
   font-family: Hero;
+  text-align: center;
+  background-color: #d6c4a0;
+  margin: 0 15vh 0 15vh;
 }
 
 .go-to {
   flex: 2;
-  justify-content: space-around;
   padding: 1vh 0vh 1vh 0vh;
-  text-align: center;
   transition: all 500ms ease-in-out;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.go-dev {
+  background-color: #d6c4a0;
+}
+
+.go-des {
+  background-color: #f6f9fd;
 }
 
 .go-to.active {
