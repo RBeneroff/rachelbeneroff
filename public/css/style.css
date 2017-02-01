@@ -305,28 +305,6 @@ nav {
   background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #E5E5E5 50%, #E5E5E5 100%);*/
 }
 
-.contact-buttons {
-  text-align: center;
-  margin: auto;
-  width: 60%;
-}
-
-.resume,
-.github,
-.linkedin,
-.google,
-.codewars {
-  font-size: 20px;
-  font-family: Hero;
-  color: #E5E5E5;
-  display: flex;
-  text-align: center;
-}
-
-.resume:hover {
-  color: white;
-}
-
 .about-container {
   color: #333333;
   background-color: white;
@@ -470,7 +448,39 @@ nav {
   margin-top: -1000px;
 }
 
+.contact-buttons {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: space-around;*/
+  margin: 0 15vh 0 15vh;
+}
+
 .button {
+  width: 50%;
+  text-align: center;
+  height: 50px;
+  background-color: #f6f9fd;
+  border-width: 0px;
+  margin-top: 2vh;
+}
+
+.button2 {
+  width: 50%;
+  text-align: center;
+  height: 50px;
+  background-color: #D6C4A0;
+  border-width: 0px;
+  margin-top: 2vh;
+}
+
+/*.contact-buttons {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}*/
+
+/*.button {
   border-style: solid;
   border-width: 0px 0px 3px;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
@@ -491,9 +501,26 @@ nav {
   border-radius: 5px;
   text-align: center;
   margin: 2vh 2vh 2vh 2vh;
+}*/
+
+.resume,
+.github,
+.linkedin,
+.google,
+.codewars {
+  font-size: 20px;
+  font-family: Hero;
+  color: #333333;
+  display: flex;
+  text-align: center;
+}
+
+.resume:hover {
+  color: white;
 }
 
 .button:hover,
+.button2:hover,
 .github:hover,
 .linkedin:hover,
 .google:hover,
