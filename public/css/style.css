@@ -388,7 +388,7 @@ nav {
   background-color: #D0E0F6;
   /*83D2F7*/
   text-align: center;
-  padding: 80px 0 0 0;
+  padding: 70px 0 0 0;
   font-family: 'Hero';
   font-size: 20px;
   color: white;
@@ -532,12 +532,10 @@ button:focus {
 /*WORK PAGE */
 
 .break {
-  height: 180px;
   font-size: 20px;
   display: flex;
   font-family: Hero;
   text-align: center;
-  background-color: #d6c4a0;
   margin: 0 15vh 0 15vh;
 }
 
@@ -545,16 +543,17 @@ button:focus {
   flex: 2;
   padding: 1vh 0vh 1vh 0vh;
   transition: all 500ms ease-in-out;
-  padding-top: 80px;
-  display: flex;
-  justify-content: center;
 }
 
 .go-dev {
+  height: 100px;
+  padding: 70px 0 0 0;
   background-color: #d6c4a0;
 }
 
 .go-des {
+  height: 100px;
+  padding: 70px 0 0 0;
   background-color: #f6f9fd;
 }
 
