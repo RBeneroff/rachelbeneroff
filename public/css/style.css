@@ -388,7 +388,7 @@ nav {
   background-color: #D0E0F6;
   /*83D2F7*/
   text-align: center;
-  padding: 80px 0 0 0;
+  padding: 70px 0 0 0;
   font-family: 'Hero';
   font-size: 20px;
   color: white;
@@ -470,8 +470,6 @@ nav {
   font-size: 20px;
   font-family: Hero;
   color: #333333;
-  display: flex;
-  text-align: center;
 }
 
 .button2 {
@@ -488,8 +486,6 @@ nav {
   font-size: 20px;
   font-family: Hero;
   color: #333333;
-  display: flex;
-  text-align: center;
 }
 
 /*.contact-buttons {
@@ -536,19 +532,29 @@ button:focus {
 /*WORK PAGE */
 
 .break {
-  height: 50px;
   font-size: 20px;
   display: flex;
-  justify-content: space-around;
   font-family: Hero;
+  text-align: center;
+  margin: 0 15vh 0 15vh;
 }
 
 .go-to {
   flex: 2;
-  justify-content: space-around;
   padding: 1vh 0vh 1vh 0vh;
-  text-align: center;
   transition: all 500ms ease-in-out;
+}
+
+.go-dev {
+  height: 100px;
+  padding: 70px 0 0 0;
+  background-color: #d6c4a0;
+}
+
+.go-des {
+  height: 100px;
+  padding: 70px 0 0 0;
+  background-color: #f6f9fd;
 }
 
 .go-to.active {
@@ -566,39 +572,22 @@ button:focus {
   text-align: center;
   color: #333333;
   font-size: 25px;
-  /*color: #E5E5E5;*/
 }
 
 .work-titles {
   font-family: Hero;
-  /*font-family: 'Quicksand', sans-serif;*/
   padding: 15vh 15vh 0 15vh;
   color: #333333;
   text-align: right;
-}
-
-.work-titles1 {
-  font-family: Hero;
-  /*font-family: 'Quicksand', sans-serif;*/
-  padding: 15vh 15vh 0 15vh;
-  color: #333333;
-  text-align: right;
+  visibility: hidden;
 }
 
 .work-titles2 {
   font-family: Hero;
-  /*font-family: 'Quicksand', sans-serif;*/
-  padding: 15vh;
+  padding: 8vh;
   color: #333333;
-  text-align: left;
+  visibility: hidden;
 }
-
-/*.work-titles3 {
-  font-family: Hero;
-  padding: 15vh;
-  color: white;
-  text-align: left;
-}*/
 
 .white {
   color: white;
@@ -614,61 +603,96 @@ button:focus {
   height: 200px;
 }
 
-/*.site-link {
-  color: white;
-}*/
-
 .site-link1 {
   color: #333333;
 }
-
-/*.site-link:hover {
-  color: #E5E5E5;
-}*/
 
 /*.dev-container {
   margin: 0 5vh 0 5vh;
 }*/
 
-.proj-image{
-  background-image: url('../images/work-backgrounds1-01 s.png');
-  background-repeat: no-repeat;
-  background-position:center;
-  width: 100%;
+.five-dev {
+  background-color: #fffaf1;
   height: 300px;
-  background-color: white;
-}
-
-.proj2-image{
-  background-image: url('../images/work-backgrounds-04.png');
-  background-repeat: no-repeat;
-  background-position:center;
   width: 100%;
-  height: 300px;
-}
-
-.proj3-image{
-  background-image: url('../images/work-backgrounds-06.png');
-  background-repeat: no-repeat;
-  background-position:center;
-  width: 100%;
-  height: 300px;
-}
-
-.proj4-image{
-  background-image: url('../images/work-backgrounds-08.png');
+  background-image: url('../images/skill_icons2-16 small.png');
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  height: 300px;
+  cursor: pointer;
 }
 
-.proj5-image{
-  background-image: url('../images/work-backgrounds1-07 s.png');
+.five-dev:hover {
+  background: linear-gradient(to bottom right, #fffaf1 0%, #fffaf1 50%, #ebf6f9 50%, #ebf6f9 100%);
+}
+
+/*.five-dev:hover .work-titles {
+  visibility: visible;
+}*/
+
+.one-dev {
+  background-color: #b8a889;
+  height: 220px;
+  width: 50%;
+  background-image: url('../images/skill_icons-20.png');
   background-repeat: no-repeat;
-  background-position:center;
-  width: 100%;
-  height: 300px;
+  background-position: center;
+  cursor: pointer;
+}
+
+.two-dev {
+  background-color: #6d86a9;
+  /*4C556E*/
+  height: 220px;
+  width: 50%;
+  background-image: url('../images/skill_icons2-14.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.three-dev {
+  background-color: #d0e0f6;
+  height: 220px;
+  width: 50%;
+  background-image: url('../images/skill_icons-19.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.four-dev {
+  background-color: #f6e9d0;
+  /*4C556E*/
+  height: 220px;
+  width: 50%;
+  background-image: url('../images/skill_icons2-17 small.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.one-dev:hover {
+  background: #b8a889;
+}
+
+.three-dev:hover {
+  background: #d0e0f6;
+}
+
+.two-dev:hover {
+  background: #6d86a9;
+}
+
+.four-dev:hover {
+  background: #f6e9d0;
+}
+
+.five-dev:hover .work-titles,
+.one-dev:hover .work-titles2,
+.two-dev:hover .work-titles2,
+.three-dev:hover .work-titles2,
+.four-dev:hover .work-titles2 {
+  visibility: visible;
 }
 
 .work-container {
@@ -789,11 +813,14 @@ button:focus {
 
 .design-flex {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-flow: row;
   flex-wrap: wrap;
-  /*position: absolute;*/
+  justify-content: space-around;
+  margin: 0 15vh 0 15vh;
+  text-align: center;
+}
+
+.design-box {
+  width: 50%;
 }
 
 .design3,
@@ -802,35 +829,35 @@ button:focus {
 .design4,
 .design5,
 .design6 {
-  width: 500px;
+  /*width: 500px;*/
   height: 300px;
   overflow: hidden;
   margin: 2vh 0 2vh 0;
 }
 
 #griffen {
-  zoom: .5;
-}
-
-#greenway {
-  zoom: .5;
-}
-
-#ntrinsiq {
-  zoom: .5;
-}
-
-#myb {
   zoom: .4;
 }
 
+#greenway {
+  zoom: .4;
+}
+
+#ntrinsiq {
+  zoom: .4;
+}
+
+#myb {
+  zoom: .3;
+}
+
 #myb2 {
-  zoom: .7;
+  zoom: .6;
 }
 
 
 #hcg {
-  zoom: .4;
+  zoom: .3;
 }
 
 .design-flex:hover img:hover {
@@ -847,6 +874,17 @@ button:focus {
   overflow: visible;
   position: relative;
   z-index: 100;
+}
+
+.design-more {
+  background-color: #e5e5e5;
+}
+
+.more {
+  text-align: center;
+  height: 100px;
+  padding: 70px 0 0 0;
+  margin: 0 20vh 0 20vh;
 }
 
 /*CASE STUDY PAGES*/
@@ -1081,8 +1119,6 @@ button:focus {
   cursor: pointer;
 }
 
-/*UNUSED CSS*/
-
 hr {
   text-align: center; margin: 0 auto;
   border: 0;
@@ -1092,6 +1128,8 @@ hr {
   background-image: -ms-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
   background-image: -o-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
 }
+
+/*UNUSED CSS*/
 
 /*.container-bok {
   font-family: hero;
@@ -1139,4 +1177,45 @@ hr {
   /*color: #333333;*/
   /*opacity: 1;
   z-index: 1;
+}*/
+
+/*.proj-image{
+  background-image: url('../images/work-backgrounds1-01 s.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+
+.proj2-image{
+  background-image: url('../images/work-backgrounds-04.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 300px;
+}
+
+.proj3-image{
+  background-image: url('../images/work-backgrounds-06.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 300px;
+}
+
+.proj4-image{
+  background-image: url('../images/work-backgrounds-08.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.proj5-image{
+  background-image: url('../images/work-backgrounds1-07 s.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 300px;
 }*/

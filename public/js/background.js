@@ -8,4 +8,4 @@
 
 
     } //SiteController
-})() //IIFE
+})(); //IIFE
