@@ -931,42 +931,41 @@ button:focus {
 }
 
 .case-image-bok {
-  background-image: url('../images/computer-17.png');
-  height: 2200px;
-  zoom: .3;
+  background-image: url('../images/computer2-17.png');
+  height: 1525px;
+  zoom: .25;
   background-repeat: no-repeat;
   background-position: center;
-  /*background-color: #E5E5E5;*/
 }
 
 .case-image-tuts {
-  background-image: url('../images/computer-18.png');
-  height: 2200px;
-  zoom: .3;
+  background-image: url('../images/computer2-18.png');
+  height: 1525px;
+  zoom: .25;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .case-image-spacedout {
-  background-image: url('../images/computer-24.png');
-  height: 2200px;
-  zoom: .3;
+  background-image: url('../images/computer2-22.png');
+  height: 1525px;
+  zoom: .25;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .case-image-blends {
   background-image: url('../images/computer2-23.png');
-  height: 1500px;
+  height: 1525px;
   zoom: .25;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .case-image-simply {
-  background-image: url('../images/computer-26.png');
-  height: 2200px;
-  zoom: .3;
+  background-image: url('../images/computer2-24.png');
+  height: 1525px;
+  zoom: .25;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -982,6 +981,12 @@ button:focus {
   margin: auto;
   text-align: left;
   padding-bottom: 10vh;
+}
+
+.case-top {
+  text-align: center;
+  margin: auto;
+  width: 70%;
 }
 
 .case-text {
@@ -1103,7 +1108,7 @@ button:focus {
 }
 
 hr {
-  text-align: center; margin: 0 auto;
+  margin: 0 auto;
   border: 0;
   height: 1px;
   background-image: -webkit-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
