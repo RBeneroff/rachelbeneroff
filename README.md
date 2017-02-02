@@ -1,5 +1,5 @@
 # rachelbeneroff
-My Portfolio Website - currently under construction
+My Portfolio Website - forever under construction
 
 www.rachelbeneroff.site
 
