@@ -1081,8 +1081,8 @@ button:focus {
 
 .view-others {
   height: 175px;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
   background-color: white;
   font-family: Hero;
 /*font-family: 'Quicksand', sans-serif;*/
@@ -1099,7 +1099,7 @@ button:focus {
   height: 120px;
   width: 175px;
   border: 2px solid #333333;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
 }
 
 .s1 {
