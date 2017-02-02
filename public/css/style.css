@@ -582,13 +582,6 @@ button:focus {
   visibility: hidden;
 }
 
-.work-titles1 {
-  font-family: Hero;
-  padding: 7vh;
-  color: #333333;
-  visibility: hidden;
-}
-
 .work-titles2 {
   font-family: Hero;
   padding: 8vh;
@@ -610,17 +603,9 @@ button:focus {
   height: 200px;
 }
 
-/*.site-link {
-  color: white;
-}*/
-
 .site-link1 {
   color: #333333;
 }
-
-/*.site-link:hover {
-  color: #E5E5E5;
-}*/
 
 /*.dev-container {
   margin: 0 5vh 0 5vh;
@@ -705,50 +690,9 @@ button:focus {
 .five-dev:hover .work-titles,
 .one-dev:hover .work-titles2,
 .two-dev:hover .work-titles2,
-.three-dev:hover .work-titles1,
+.three-dev:hover .work-titles2,
 .four-dev:hover .work-titles2 {
   visibility: visible;
-}
-
-.proj-image{
-  background-image: url('../images/work-backgrounds1-01 s.png');
-  background-repeat: no-repeat;
-  background-position:center;
-  width: 100%;
-  height: 300px;
-  background-color: white;
-}
-
-.proj2-image{
-  background-image: url('../images/work-backgrounds-04.png');
-  background-repeat: no-repeat;
-  background-position:center;
-  width: 100%;
-  height: 300px;
-}
-
-.proj3-image{
-  background-image: url('../images/work-backgrounds-06.png');
-  background-repeat: no-repeat;
-  background-position:center;
-  width: 100%;
-  height: 300px;
-}
-
-.proj4-image{
-  background-image: url('../images/work-backgrounds-08.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 300px;
-}
-
-.proj5-image{
-  background-image: url('../images/work-backgrounds1-07 s.png');
-  background-repeat: no-repeat;
-  background-position:center;
-  width: 100%;
-  height: 300px;
 }
 
 .work-container {
@@ -1175,8 +1119,6 @@ button:focus {
   cursor: pointer;
 }
 
-/*UNUSED CSS*/
-
 hr {
   text-align: center; margin: 0 auto;
   border: 0;
@@ -1186,6 +1128,8 @@ hr {
   background-image: -ms-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
   background-image: -o-linear-gradient(left, #E5E5E5, #8c8b8b, #E5E5E5);
 }
+
+/*UNUSED CSS*/
 
 /*.container-bok {
   font-family: hero;
@@ -1233,4 +1177,45 @@ hr {
   /*color: #333333;*/
   /*opacity: 1;
   z-index: 1;
+}*/
+
+/*.proj-image{
+  background-image: url('../images/work-backgrounds1-01 s.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+
+.proj2-image{
+  background-image: url('../images/work-backgrounds-04.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 300px;
+}
+
+.proj3-image{
+  background-image: url('../images/work-backgrounds-06.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 300px;
+}
+
+.proj4-image{
+  background-image: url('../images/work-backgrounds-08.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.proj5-image{
+  background-image: url('../images/work-backgrounds1-07 s.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 300px;
 }*/
