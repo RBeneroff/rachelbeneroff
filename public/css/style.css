@@ -793,13 +793,30 @@ button:focus {
   opacity: 0.1;
 }
 
+/*display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 0 15vh 0 15vh;
+text-align: center;*/
+
 .design-flex {
+  /*width: 100%;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 15vh 0 15vh;
+  text-align: center;
+  /*margin: 0 15vh 0 15vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-flow: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
   /*position: absolute;*/
+}
+
+.design-box {
+  width: 50%;
 }
 
 .design3,
@@ -808,7 +825,7 @@ button:focus {
 .design4,
 .design5,
 .design6 {
-  width: 500px;
+  /*width: 500px;*/
   height: 300px;
   overflow: hidden;
   margin: 2vh 0 2vh 0;
@@ -853,6 +870,17 @@ button:focus {
   overflow: visible;
   position: relative;
   z-index: 100;
+}
+
+.design-more {
+  background-color: #e5e5e5;
+}
+
+.more {
+  text-align: center;
+  height: 100px;
+  padding: 70px 0 0 0;
+  margin: 0 20vh 0 20vh;
 }
 
 /*CASE STUDY PAGES*/
