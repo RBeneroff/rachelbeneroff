@@ -581,6 +581,7 @@ button:focus {
   padding: 15vh 15vh 0 15vh;
   color: #333333;
   text-align: right;
+  visibility: hidden;
 }
 
 .work-titles1 {
@@ -589,6 +590,7 @@ button:focus {
   padding: 15vh 15vh 0 15vh;
   color: #333333;
   text-align: right;
+  visibility: hidden;
 }
 
 .work-titles2 {
@@ -597,6 +599,7 @@ button:focus {
   padding: 15vh;
   color: #333333;
   text-align: left;
+  visibility: hidden;
 }
 
 /*.work-titles3 {
@@ -635,6 +638,84 @@ button:focus {
 /*.dev-container {
   margin: 0 5vh 0 5vh;
 }*/
+
+.five-dev {
+  background-color: #fffaf1;
+  height: 300px;
+  width: 100%;
+  background-image: url('../images/skill_icons2-16 small.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.five-dev:hover {
+  background: linear-gradient(to bottom right, #fffaf1 0%, #fffaf1 50%, #ebf6f9 50%, #ebf6f9 100%);
+}
+
+/*.five-dev:hover .work-titles {
+  visibility: visible;
+}*/
+
+.one-dev {
+  background-color: #f6e9d0;
+  height: 220px;
+  width: 50%;
+  background-image: url('../images/skill_icons2-17 small.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.two-dev {
+  background-color: #6d86a9;
+  /*4C556E*/
+  height: 220px;
+  width: 50%;
+  background-image: url('../images/skill_icons2-14.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.three-dev {
+  background-color: #f6e9d0;
+  height: 220px;
+  width: 50%;
+  background-image: url('../images/skill_icons2-17 small.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.four-dev {
+  background-color: #6d86a9;
+  /*4C556E*/
+  height: 220px;
+  width: 50%;
+  background-image: url('../images/skill_icons2-14.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.one-dev:hover,
+.three-dev:hover {
+  background: #f6e9d0;
+}
+
+.two-dev:hover,
+.four-dev:hover {
+  background: #6d86a9;
+}
+
+.five-dev:hover .work-titles,
+.one-dev:hover .work-titles2,
+.two-dev:hover .work-titles2,
+.three-dev:hover .work-titles,
+.four-dev:hover .work-titles1 {
+  visibility: visible;
+}
 
 .proj-image{
   background-image: url('../images/work-backgrounds1-01 s.png');
