@@ -618,7 +618,6 @@ button:focus {
   background-image: url('../images/skill_icons2-16 small.png');
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
 }
 
 .five-dev:hover {
@@ -636,7 +635,6 @@ button:focus {
   background-image: url('../images/skill_icons-20.png');
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
 }
 
 .two-dev {
@@ -647,7 +645,6 @@ button:focus {
   background-image: url('../images/skill_icons2-14.png');
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
 }
 
 .three-dev {
@@ -657,7 +654,6 @@ button:focus {
   background-image: url('../images/skill_icons-19.png');
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
 }
 
 .four-dev {
@@ -668,7 +664,6 @@ button:focus {
   background-image: url('../images/skill_icons2-17 small.png');
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
 }
 
 .one-dev:hover {
@@ -786,14 +781,8 @@ button:focus {
   color: #333333;
 }
 
-.case-study {
-  /*font-size: 20px;*/
-  /*text-decoration: underline;*/
-}
-
-.case-study:hover {
+.case-link:hover {
   color: #E5E5E5;
-  /*color: white;*/
 }
 
 /*DESIGN PAGE*/
