@@ -916,20 +916,18 @@ button:focus {
     justify-content: center;
 }
 
+.case-vertical {
+  background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #E5E5E5 50%, #E5E5E5 100%);
+}
+
 .case {
-  /*width: 800px;
-  height: 400px;*/
   margin: auto;
   font-family: Hero;
-  /*font-family: 'Quicksand', sans-serif;*/
 }
 
 .case-heading {
-  margin: 5vh 0 3vh 0;
-  /*margin-bottom: 10vh;*/
+  margin: 5vh 0 5vh 0;
   text-align: center;
-  /*padding: 5vh;
-  background-color: #E5E5E5;*/
 }
 
 .case-image-bok {
@@ -958,9 +956,9 @@ button:focus {
 }
 
 .case-image-blends {
-  background-image: url('../images/computer-25.png');
-  height: 2200px;
-  zoom: .3;
+  background-image: url('../images/computer2-23.png');
+  height: 1500px;
+  zoom: .25;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -975,14 +973,11 @@ button:focus {
 
 .body-width {
   width: 100%;
-  background: white;
+  background: #E5E5E5;
 }
 
 .case-body {
-  /*background-color: #E5E5E5;*/
-  /*background-color: white;*/
-  /*height: 300px;*/
-  width: 70%;
+  padding: 0 15vh 0 15vh;
   padding-top: 5vh;
   margin: auto;
   text-align: left;
@@ -991,7 +986,6 @@ button:focus {
 
 .case-text {
   font-family: 'Taviraj', serif;
-  font-size: 18px;
   color: #333333;
 }
 
@@ -1006,7 +1000,7 @@ button:focus {
 }
 
 .case-pics3 {
-  margin-top: 10vh;
+  margin-top: 5vh;
   text-align: center;
 }
 
@@ -1084,7 +1078,7 @@ button:focus {
   height: 175px;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  background-color: #E5E5E5;
+  background-color: white;
   font-family: Hero;
 /*font-family: 'Quicksand', sans-serif;*/
   text-align: center;
