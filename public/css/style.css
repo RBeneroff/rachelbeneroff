@@ -888,25 +888,32 @@ button:focus {
   height: 100%;
 }
 
+.text-pixel {
+  cursor: pointer;
+}
+
 .pixel1 {
-    margin-top: 3vh;
-    height:155px;
-    flex-basis: 25%;
-    justify-content: center;
+  margin-top: 3vh;
+  height:155px;
+  flex-basis: 25%;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .pixel2 {
-    margin-top: 3vh;
-    height:155px;
-    flex-basis: 40%;
-    justify-content: center;
+  margin-top: 3vh;
+  height:155px;
+  flex-basis: 40%;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .pixel3 {
-    margin-top: 3vh;
-    height:155px;
-    flex-basis: 10%;
-    justify-content: center;
+  margin-top: 3vh;
+  height:155px;
+  flex-basis: 10%;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .pixel4 {
@@ -990,6 +997,8 @@ button:focus {
 }
 
 .case-text {
+  width: 90%;
+  margin: auto;
   font-family: 'Taviraj', serif;
   color: #333333;
 }
