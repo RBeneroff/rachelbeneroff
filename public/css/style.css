@@ -1014,6 +1014,8 @@ button:focus {
 }
 
 .case-pics3 {
+  width: 90%;
+  margin: auto;
   margin-top: 5vh;
   text-align: center;
 }
