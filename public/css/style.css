@@ -793,26 +793,12 @@ button:focus {
   opacity: 0.1;
 }
 
-/*display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-margin: 0 15vh 0 15vh;
-text-align: center;*/
-
 .design-flex {
-  /*width: 100%;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 15vh 0 15vh;
   text-align: center;
-  /*margin: 0 15vh 0 15vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-flow: row;
-  flex-wrap: wrap;*/
-  /*position: absolute;*/
 }
 
 .design-box {
@@ -832,28 +818,28 @@ text-align: center;*/
 }
 
 #griffen {
-  zoom: .5;
-}
-
-#greenway {
-  zoom: .5;
-}
-
-#ntrinsiq {
-  zoom: .5;
-}
-
-#myb {
   zoom: .4;
 }
 
+#greenway {
+  zoom: .4;
+}
+
+#ntrinsiq {
+  zoom: .4;
+}
+
+#myb {
+  zoom: .3;
+}
+
 #myb2 {
-  zoom: .7;
+  zoom: .6;
 }
 
 
 #hcg {
-  zoom: .4;
+  zoom: .3;
 }
 
 .design-flex:hover img:hover {
