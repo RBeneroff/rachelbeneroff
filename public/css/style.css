@@ -249,7 +249,7 @@ nav {
 
 .brand-statement {
   /*font-family: 'Taviraj', serif;*/
-    font-family: 'Hero';
+  font-family: 'Hero';
   /*padding: 8vh 20vh 8vh 20vh;*/
   padding: 0 45vh 0 5vh;
   font-size: 20px;
@@ -257,8 +257,11 @@ nav {
 }
 
 .location {
-  margin-left: 13.4vh;
-  margin-top: -8vh;
+  margin-left: -55px;
+  margin-top: -60px;
+  position: absolute;
+  font-family: 'Hero';
+  font-size: 20px;
 }
 
 .what-i-do {
