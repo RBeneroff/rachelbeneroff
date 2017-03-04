@@ -133,57 +133,25 @@ nav {
 }
 
 #word-1 {
-  /*font-family: Hero;
-  font-size: 13vh;
-  display: flex;
-  justify-content: center;
-  color: #80AEFF;
-  text-shadow: 2px 2px #26344C;*/
-  /*font-family: 'Taviraj', serif;*/
   font-family: 'Hero';
-  /*padding: 8vh 20vh 8vh 20vh;*/
   font-size: 20px;
   color: #333333;
 }
 
 #word-2 {
-  /*font-family: Hero;
-  font-size: 13vh;
-  display: flex;
-  justify-content: center;
-  color: #80AEFF;
-  text-shadow: 2px 2px #26344C;*/
-  /*font-family: 'Taviraj', serif;*/
   font-family: 'Hero';
-  /*padding: 8vh 20vh 8vh 20vh;*/
   font-size: 20px;
   color: #333333;
 }
 
 #word-3 {
-  /*font-family: Hero;
-  font-size: 13vh;
-  display: flex;
-  justify-content: center;
-  color: #80AEFF;
-  text-shadow: 2px 2px #26344C;*/
-  /*font-family: 'Taviraj', serif;*/
     font-family: 'Hero';
-  /*padding: 8vh 20vh 8vh 20vh;*/
   font-size: 20px;
   color: #333333;
 }
 
 #word-4 {
-  /*font-family: Hero;
-  font-size: 13vh;
-  display: flex;
-  justify-content: center;
-  color: #80AEFF;
-  text-shadow: 2px 2px #26344C;*/
-  /*font-family: 'Taviraj', serif;*/
-    font-family: 'Hero';
-  /*padding: 8vh 20vh 8vh 20vh;*/
+  font-family: 'Hero';
   font-size: 20px;
   color: #333333;
 }
@@ -196,15 +164,11 @@ nav {
   color: #80AEFF;
   text-shadow: 2px 2px #26344C;*/
   /*font-family: 'Taviraj', serif;*/
-    font-family: 'Hero';
+  font-family: 'Hero';
   /*padding: 8vh 20vh 8vh 20vh;*/
   font-size: 20px;
   color: #333333;
 }
-
-/*#line2 {
-  font-size: 7vh;
-}*/
 
 .typed-cursor{
     opacity: 1;
@@ -235,22 +199,35 @@ nav {
   /*position: fixed;*/
 }
 
+/*MOBILE HOME PAGE*/
+@media (max-width: 600px){
+  .vertical {
+    display: none;
+  }
+  .what-i-do {
+    display: none;
+  }
+  .container-flex {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .five, .one, .two, .me, .six, .three, .four {
+
+  }
+}
+
 /*ABOUT PAGE */
 
 .about {
-  /*text-align: center;*/
-  /*font-family: 'Taviraj', serif;*/
-    /*font-family: 'Hero';*/
-  /*padding: 8vh 20vh 8vh 20vh;*/
   padding: 0 20vh 0 5vh;
   font-size: 20px;
   color: #333333;
 }
 
 .brand-statement {
-  /*font-family: 'Taviraj', serif;*/
   font-family: 'Hero';
-  /*padding: 8vh 20vh 8vh 20vh;*/
   padding: 0 45vh 0 5vh;
   font-size: 20px;
   color: #333333;
@@ -267,12 +244,10 @@ nav {
 .what-i-do {
   width: 100%;
   padding: 5vh 0 0vh 0;
-  /*background-color: #E5E5E5;*/
 }
 
 .what-title {
   padding-bottom: 1vh;
-  /*font-family: 'Taviraj', serif;*/
   font-family: 'Hero';
   text-align: center;
   font-size: 20px;
