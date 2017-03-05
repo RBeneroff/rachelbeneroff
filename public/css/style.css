@@ -23,9 +23,7 @@ p {
 }
 
 body {
-  /*background-color: #E5E5E5;*/
   color: #333333;
-  /*visibility: hidden;*/
 }
 
 /*USED ACROSS MULTIPLE PAGES*/
@@ -88,7 +86,6 @@ nav {
 /*HOME PAGE*/
 
 .home {
-  /*min-height: calc(80vh - 70px);*/
   background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #E5E5E5 50%, #E5E5E5 100%);
   padding-bottom: 5vh;
 }
@@ -100,10 +97,7 @@ nav {
 }
 
 .sliders {
-  /*text-align: center;*/
   padding: 0 20vh 0 5vh;
-  /*padding-top: 25vh;*/
-  /*padding-bottom: 20vh;*/
 }
 
 .circles {
@@ -196,26 +190,6 @@ nav {
 .push {
   text-align: center;
   height: 50px;
-  /*position: fixed;*/
-}
-
-/*MOBILE HOME PAGE*/
-@media (max-width: 600px){
-  .vertical {
-    display: none;
-  }
-  .what-i-do {
-    display: none;
-  }
-  .container-flex {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    text-align: center;
-  }
-  .five, .one, .two, .me, .six, .three, .four {
-
-  }
 }
 
 /*ABOUT PAGE */
