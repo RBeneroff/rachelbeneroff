@@ -25,3 +25,39 @@
     zoom: .5;
   }
 }
+
+/*WORK PAGE */
+
+@media (max-width: 600px) {
+  .break {
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+/*DEVELOPMENT PAGE*/
+
+@media (max-width: 600px) {
+  .one-dev, .two-dev, .three-dev, .four-dev {
+    width: 100%;
+  }
+}
+
+/*DESIGN PAGE */
+
+@media (max-width: 600px) {
+  .design-flex {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  .design-box {
+    width: 100%;
+  }
+  .more {
+    margin: auto;
+    padding-top: 20px;
+  }
+}
