@@ -61,3 +61,19 @@
     padding-top: 20px;
   }
 }
+
+/*CONTACT PAGE*/
+
+@media (max-width: 600px) {
+  .contact-buttons {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  .button, .button2 {
+    width: 100%;
+    margin: 0;
+  }
+}
