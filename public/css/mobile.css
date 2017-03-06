@@ -25,6 +25,20 @@
     zoom: .5;
   }
 }
+@media (max-width: 1024px) {
+  .vertical {
+    margin-left: 10vh;
+  }
+  .brand-statement {
+    padding-right: 5vh;
+  }
+  .container-flex {
+    margin: 0 5vh;
+  }
+  .skill-container {
+    width: 80%;
+  }
+}
 
 /*WORK PAGE */
 
