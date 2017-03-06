@@ -55,10 +55,19 @@
   }
   .design-box {
     width: 100%;
+    margin: 0;
   }
   .more {
     margin: auto;
     padding-top: 20px;
+  }
+  .design3,
+  .design,
+  .design2,
+  .design4,
+  .design5,
+  .design6 {
+    margin: 0;
   }
 }
 
@@ -75,5 +84,38 @@
   .button, .button2 {
     width: 100%;
     margin: 0;
+  }
+}
+
+/*CASE STUDY PAGES */
+
+@media (max-width: 600px) {
+  .squares {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .case-image-blends, .case-image-bok, .case-image-tuts, .case-image-spacedout, .case-image-simply {
+    zoom: .15;
+  }
+  .case-body {
+    padding: 0;
+    padding-top: 5vh;
+  }
+  .case-top {
+    width: 80%;
+  }
+  #task {
+    zoom: .2;
+  }
+  #cow {
+    zoom: .25;
+  }
+  #typed, .cursor {
+    font-size: 5vh;
+  }
+  .case-pics2 {
+    height: 80px;
+    margin-top: 5vh;
   }
 }
