@@ -51,9 +51,18 @@
 
 /*DEVELOPMENT PAGE*/
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .one-dev, .two-dev, .three-dev, .four-dev {
     width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .work-titles2 {
+    padding: 7vh;
+  }
+  .work-titles {
+    padding: 10vh;
   }
 }
 
@@ -85,6 +94,19 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .design-flex {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0;
+  }
+  .more {
+    padding-top: 3vh;
+  }
+}
+
 /*CONTACT PAGE*/
 
 @media (max-width: 600px) {
@@ -99,6 +121,10 @@
     width: 100%;
     margin: 0;
   }
+}
+
+@media (max-width: 1024px) {
+
 }
 
 /*CASE STUDY PAGES */
@@ -131,5 +157,27 @@
   .case-pics2 {
     height: 80px;
     margin-top: 5vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .case-body {
+    padding: 0;
+    padding-top: 5vh;
+  }
+  .squares {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #task {
+    zoom: .3;
+  }
+  #typed, .cursor {
+    font-size: 7vh;
+  }
+  .case-pics2 {
+    height: 80px;
+    margin-bottom: 5vh;
   }
 }
