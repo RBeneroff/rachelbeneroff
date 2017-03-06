@@ -23,9 +23,7 @@ p {
 }
 
 body {
-  /*background-color: #E5E5E5;*/
   color: #333333;
-  /*visibility: hidden;*/
 }
 
 /*USED ACROSS MULTIPLE PAGES*/
@@ -88,7 +86,6 @@ nav {
 /*HOME PAGE*/
 
 .home {
-  /*min-height: calc(80vh - 70px);*/
   background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #E5E5E5 50%, #E5E5E5 100%);
   padding-bottom: 5vh;
 }
@@ -100,10 +97,7 @@ nav {
 }
 
 .sliders {
-  /*text-align: center;*/
   padding: 0 20vh 0 5vh;
-  /*padding-top: 25vh;*/
-  /*padding-bottom: 20vh;*/
 }
 
 .circles {
@@ -196,26 +190,6 @@ nav {
 .push {
   text-align: center;
   height: 50px;
-  /*position: fixed;*/
-}
-
-/*MOBILE HOME PAGE*/
-@media (max-width: 600px){
-  .vertical {
-    display: none;
-  }
-  .what-i-do {
-    display: none;
-  }
-  .container-flex {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    text-align: center;
-  }
-  .five, .one, .two, .me, .six, .three, .four {
-
-  }
 }
 
 /*ABOUT PAGE */
@@ -572,9 +546,6 @@ button:focus {
 }
 
 .header-image{
-  /*background-image: url('../images/WineBottles.jpg');*/
-  /*background-color: #E5E5E5;*/
-  /*background-color: #333333;*/
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
@@ -584,10 +555,6 @@ button:focus {
 .site-link1 {
   color: #333333;
 }
-
-/*.dev-container {
-  margin: 0 5vh 0 5vh;
-}*/
 
 .five-dev {
   background-color: #fffaf1;
@@ -601,10 +568,6 @@ button:focus {
 .five-dev:hover {
   background: linear-gradient(to bottom right, #fffaf1 0%, #fffaf1 50%, #ebf6f9 50%, #ebf6f9 100%);
 }
-
-/*.five-dev:hover .work-titles {
-  visibility: visible;
-}*/
 
 .one-dev {
   background-color: #b8a889;
@@ -671,17 +634,10 @@ button:focus {
 .work-container {
   background: #E5E5E5;
   color: #333333;
-  /*height: 400px;*/
-  /*margin: auto;*/
 }
 
 .work-flex {
-  /*display: flex;*/
-  /*justify-content: space-around;*/
-  /*flex-wrap: wrap;*/
-  /*align-items: center;*/
   text-align: center;
-  /*margin: auto;*/
   padding-bottom: 10vh;
 }
 
@@ -703,7 +659,6 @@ button:focus {
 .image-design {
   zoom: .25;
   padding-bottom: 10vh;
-  /*margin: 3vh 3vh 0 3vh;*/
   flex: 1;
 }
 
@@ -711,45 +666,34 @@ button:focus {
   zoom: .2;
   padding-bottom: 10vh;
   padding-top: 10vh;
-    /*margin: 3vh 3vh 0 3vh;*/
-  /*flex: 1;*/
 }
 
 .image-design3 {
   zoom: .2;
   padding-bottom: 10vh;
   padding-top: 10vh;
-    /*margin: 3vh 3vh 0 3vh;*/
-  /*flex: 1;*/
 }
 
 .image-design4 {
   zoom: .2;
   padding-bottom: 10vh;
   padding-top: 10vh;
-    /*margin: 3vh 3vh 0 3vh;*/
-  /*flex: 1;*/
 }
 
 .image-design5 {
   zoom: .2;
   padding-bottom: 10vh;
   padding-top: 10vh;
-    /*margin: 3vh 3vh 0 3vh;*/
-  /*flex: 1;*/
 }
 
 .image-design6 {
   zoom: .2;
   padding-bottom: 10vh;
   padding-top: 10vh;
-    /*margin: 3vh 3vh 0 3vh;*/
-  /*flex: 1;*/
 }
 
 .other-projects {
   font-family: Hero;
-  /*font-family: 'Quicksand', sans-serif;*/
   text-align: center;
   padding: 10vh 0 3vh 0;
   font-size: 25px;
@@ -1074,7 +1018,6 @@ button:focus {
   padding-bottom: 8vh;
   background-color: white;
   font-family: Hero;
-/*font-family: 'Quicksand', sans-serif;*/
   text-align: center;
 }
 
@@ -1088,7 +1031,6 @@ button:focus {
   height: 120px;
   width: 175px;
   border: 2px solid #333333;
-  /*border-radius: 5px;*/
 }
 
 .s1 {

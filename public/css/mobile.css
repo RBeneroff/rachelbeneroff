@@ -1,0 +1,121 @@
+/*HOME PAGE*/
+
+@media (max-width: 600px){
+  .vertical {
+    display: none;
+  }
+  .what-i-do {
+    display: none;
+  }
+  .container-flex {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  .five, .one, .two, .me, .six, .three, .four {
+    width: 100%;
+  }
+  .home {
+    background: white;
+    padding-bottom: 0;
+  }
+  .me {
+    zoom: .5;
+  }
+}
+
+/*WORK PAGE */
+
+@media (max-width: 600px) {
+  .break {
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+/*DEVELOPMENT PAGE*/
+
+@media (max-width: 600px) {
+  .one-dev, .two-dev, .three-dev, .four-dev {
+    width: 100%;
+  }
+}
+
+/*DESIGN PAGE */
+
+@media (max-width: 600px) {
+  .design-flex {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  .design-box {
+    width: 100%;
+    margin: 0;
+  }
+  .more {
+    margin: auto;
+    padding-top: 20px;
+  }
+  .design3,
+  .design,
+  .design2,
+  .design4,
+  .design5,
+  .design6 {
+    margin: 0;
+  }
+}
+
+/*CONTACT PAGE*/
+
+@media (max-width: 600px) {
+  .contact-buttons {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  .button, .button2 {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/*CASE STUDY PAGES */
+
+@media (max-width: 600px) {
+  .squares {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .case-image-blends, .case-image-bok, .case-image-tuts, .case-image-spacedout, .case-image-simply {
+    zoom: .15;
+  }
+  .case-body {
+    padding: 0;
+    padding-top: 5vh;
+  }
+  .case-top {
+    width: 80%;
+  }
+  #task {
+    zoom: .2;
+  }
+  #cow {
+    zoom: .25;
+  }
+  #typed, .cursor {
+    font-size: 5vh;
+  }
+  .case-pics2 {
+    height: 80px;
+    margin-top: 5vh;
+  }
+}
