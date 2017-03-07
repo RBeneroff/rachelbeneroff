@@ -50,6 +50,7 @@
   .work-titles:focus,
   .work-titles2:focus {
     visibility: visible;
+    cursor: pointer;
   }
 }
 
