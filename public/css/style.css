@@ -565,7 +565,8 @@ button:focus {
   background-position: center;
 }
 
-.five-dev:hover {
+.five-dev:hover,
+.five-dev:focus {
   background: linear-gradient(to bottom right, #fffaf1 0%, #fffaf1 50%, #ebf6f9 50%, #ebf6f9 100%);
 }
 
