@@ -19,12 +19,12 @@
       //
       //   $(window).on('scroll', parallax);
 
-      $(document).ready(function() {
-      $('.hover').bind('touchstart touchend', function(e) {
-        e.preventDefault();
-        $(this).toggleClass('hover_effect');
-    });
-});
+//       $(document).ready(function() {
+//       $('.hover').bind('touchstart touchend', function(e) {
+//         e.preventDefault();
+//         $(this).toggleClass('hover_effect');
+//     });
+//     });
 
     } //SiteController
 

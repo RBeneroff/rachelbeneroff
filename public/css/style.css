@@ -624,21 +624,21 @@ button:focus {
   background: #f6e9d0;
 }
 
-/*.five-dev:hover .work-titles,
-.one-dev:hover .work-titles2,
-.two-dev:hover .work-titles2,
-.three-dev:hover .work-titles2,
-.four-dev:hover .work-titles2 {
+.five-dev:hover .work-titles, .five-dev:active .work-titles,
+.one-dev:hover .work-titles2, .one-dev:active .work-titles2,
+.two-dev:hover .work-titles2, .two-dev:active .work-titles2,
+.three-dev:hover .work-titles2, .three-dev:active .work-titles2,
+.four-dev:hover .work-titles2, .four-dev:active .work-titles2 {
   visibility: visible;
-}*/
+}
 
-.five-dev:hover .work-titles, .five-dev.hover_effect .work-titles,
+/*.five-dev:hover .work-titles, .five-dev.hover_effect .work-titles,
 .one-dev:hover .work-titles2, .one-dev.hover_effect .work-titles,
 .two-dev:hover .work-titles2, .two-dev.hover_effect .work-titles,
 .three-dev:hover .work-titles2, .three-dev.hover_effect .work-titles,
 .four-dev:hover .work-titles2, .four-dev.hover_effect .work-titles {
   visibility: visible;
-}
+}*/
 
 .hover {
 -webkit-user-select: none;
