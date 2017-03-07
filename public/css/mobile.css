@@ -1,8 +1,28 @@
 /*HOME PAGE*/
 
+@media (max-width: 1024px) {
+  .vertical {
+    margin-left: 10vh;
+  }
+  .brand-statement {
+    padding-right: 5vh;
+  }
+  .container-flex {
+    margin: 0 5vh;
+  }
+  .skill-container {
+    width: 80%;
+  }
+}
+
 @media (max-width: 600px){
   .vertical {
-    display: none;
+    background: #E5E5E5;
+    border-left: 0;
+    padding: 3vh 0;
+    margin: auto;
+    margin-left: 0;
+    width: 100%;
   }
   .what-i-do {
     display: none;
@@ -24,19 +44,8 @@
   .me {
     zoom: .5;
   }
-}
-@media (max-width: 1024px) {
-  .vertical {
-    margin-left: 10vh;
-  }
-  .brand-statement {
-    padding-right: 5vh;
-  }
-  .container-flex {
-    margin: 0 5vh;
-  }
-  .skill-container {
-    width: 80%;
+  .location {
+    display: none;
   }
 }
 
