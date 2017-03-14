@@ -14,13 +14,12 @@
     width: 80%;
   }
 }
-
-@media (min-width: 1130px) {
+/*1130px*/
+@media (min-width: 1240px) {
   .me {
     background-image: url('../images/me.JPG');
     background-repeat: no-repeat;
     background-position:center;
-    /*height: 400px;*/
     width: 100%;
     zoom: 1.2;
     margin: auto;
@@ -32,7 +31,6 @@
     background-image: url('../images/me.JPG');
     background-repeat: no-repeat;
     background-position:center;
-    /*height: 400px;*/
     width: 100%;
     zoom: 1.5;
     margin: auto;
