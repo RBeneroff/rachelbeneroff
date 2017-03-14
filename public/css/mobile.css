@@ -15,6 +15,55 @@
   }
 }
 
+@media (min-width: 1130px) {
+  .me {
+    background-image: url('../images/me.JPG');
+    background-repeat: no-repeat;
+    background-position:center;
+    /*height: 400px;*/
+    width: 100%;
+    zoom: 1.2;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .me {
+    background-image: url('../images/me.JPG');
+    background-repeat: no-repeat;
+    background-position:center;
+    /*height: 400px;*/
+    width: 100%;
+    zoom: 1.5;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1680px) {
+  .me {
+    background-image: url('../images/me.JPG');
+    background-repeat: no-repeat;
+    background-position:center;
+    /*height: 400px;*/
+    width: 100%;
+    zoom: 1.75;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1970px) {
+  .me {
+    background-image: url('../images/me.JPG');
+    background-repeat: no-repeat;
+    background-position:center;
+    /*height: 400px;*/
+    width: 100%;
+    zoom: 1.95;
+    margin: auto;
+  }
+}
+
+
 @media (max-width: 600px){
   .vertical {
     background: #E5E5E5;
