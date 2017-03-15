@@ -6,6 +6,7 @@
   MainRouter.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 
   function MainRouter($stateProvider, $urlRouterProvider, $locationProvider) {
+
     $stateProvider
     .state('home', {
       url: '/',
