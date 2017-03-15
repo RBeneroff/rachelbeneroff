@@ -724,7 +724,6 @@ button:focus {
 /*DESIGN PAGE*/
 
 .design-container img {
-  cursor: pointer;
   -webkit-transition:opacity 0.26s ease-out;
   -moz-transition:opacity 0.26s ease-out;
   -ms-transition:opacity 0.26s ease-out;
